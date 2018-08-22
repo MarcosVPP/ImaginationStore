@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ImaginationStore.Domain"
+                   namespace="ImaginationStore.Domain.Entities">
+
+  <class name="Categoria">
+    <cache usage="nonstrict-read-write"/>
+    <id name="Codigo">
+      <generator class="identity"/>
+    </id>
+    <property name="Nome"/>
+    
+  </class>
+</hibernate-mapping>
