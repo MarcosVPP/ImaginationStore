@@ -9,6 +9,12 @@
         {
             this.Codigo = codigo;
             this.Nome = nome;
-       }
+        }
+        public void PrivadaCategoria(int codigo, string nome)
+        {
+            this.Codigo = codigo;
+            this.Nome = nome;
+
+        }
     }
 }

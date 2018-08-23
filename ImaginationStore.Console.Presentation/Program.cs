@@ -48,11 +48,11 @@ namespace ImaginationStore.Console.Presentation
 
 
             //Classe para buscar Categoria por ID somente
-            void BuscarCategoria()
-            {
-                System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(IDcategoria).Nome);
+            //void BuscarCategoria()
+            //{
+            //    System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(IDcategoria).Nome);
 
-            }
+            //}
 
 
             //"Break point" para poder ver a tela ao finalziar todas as ações
