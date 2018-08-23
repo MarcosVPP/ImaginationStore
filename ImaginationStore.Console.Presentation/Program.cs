@@ -10,10 +10,13 @@ namespace ImaginationStore.Console.Presentation
         public static void Main(string[] args)
         {
             //Variavel para buscar IDcategoria 
-            var IDcategoria = 0;
-
+            // var IDcategoria = 0;
 
             ////Salvar Categoria
+            System.Console.WriteLine("Indique quantos produtos serão cadastrados: ");
+            var QuantidadeACadastrar = Convert.ToInt32(System.Console.ReadLine());
+            while (QuantidadeACadastrar > 0)
+            {
             System.Console.WriteLine("Escreva um ID para cadastrar: ");
             var codigo = Convert.ToInt32(System.Console.ReadLine());
 
@@ -22,7 +25,7 @@ namespace ImaginationStore.Console.Presentation
 
             var newCategoria = new Categoria(codigo, nome);
             SalvarCategoria(newCategoria);
-
+            }
 
             //Busca categoria via ID
             //while (IDcategoria <= 0)
