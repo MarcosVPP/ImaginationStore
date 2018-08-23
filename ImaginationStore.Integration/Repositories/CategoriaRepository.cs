@@ -22,10 +22,10 @@ namespace ImaginationStore.Integration.Repositories
             }
         }
 
-        public static Categoria BuscaPorId(int id)
+        public static Categoria BuscaProdutoPorCodigo(int id)
         {
             using (ISession session = NHibernateHelper.AbreSession())
-            {
+            {             
                 return session.Get<Categoria>(id);
             }
         }
