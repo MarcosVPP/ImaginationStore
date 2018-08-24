@@ -11,13 +11,13 @@ namespace ImaginationStore.Integration.Repositories
     public static class ProdutoRepository
     {
 
-        public static void SalvarCategoria(Produto categoria)
+        public static void SalvarProduto(Produto produto)
         {
             using (ISession session = NHibernateHelper.AbreSession())
             using (ITransaction transaction = session.BeginTransaction())
             {
                 ITransaction transacao = session.BeginTransaction();
-                session.Save(categoria);
+                session.Save(produto);
                 transacao.Commit();
             }
         }

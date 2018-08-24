@@ -11,18 +11,18 @@ namespace ImaginationStore.Integration.Repositories
     public static class PedidoRepository
     {
 
-        public static void SalvarCategoria(Pedido categoria)
+        public static void SalvarPedido(Pedido pedido)
         {
             using (ISession session = NHibernateHelper.AbreSession())
             using (ITransaction transaction = session.BeginTransaction())
             {
                 ITransaction transacao = session.BeginTransaction();
-                session.Save(categoria);
+                session.Save(pedido);
                 transacao.Commit();
             }
         }
 
-        public static Pedido BuscaProdutoPorCodigo(int id)
+        public static Pedido BuscaPedidoPorCodigo(int id)
         {
             using (ISession session = NHibernateHelper.AbreSession())
             {

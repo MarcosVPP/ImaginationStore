@@ -43,6 +43,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\CategoriaService.cs" />
+    <Compile Include="Service\ClienteService.cs" />
+    <Compile Include="Service\EnderecoService.cs" />
+    <Compile Include="Service\FornecedorService.cs" />
+    <Compile Include="Service\PedidoService.cs" />
+    <Compile Include="Service\ProdutoService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ImaginationStore.Domain\ImaginationStore.Domain.csproj">
