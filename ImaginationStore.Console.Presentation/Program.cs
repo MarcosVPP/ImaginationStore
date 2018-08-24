@@ -35,7 +35,7 @@ namespace ImaginationStore.Console.Presentation
             //    ID = Convert.ToInt32(System.Console.ReadLine());
 
             //    //Validação ID Categoria
-            //    if (IDcategoria > 0)
+            //    if (id > 0)
             //    {
             //        BuscarCategoria();
             //    }
