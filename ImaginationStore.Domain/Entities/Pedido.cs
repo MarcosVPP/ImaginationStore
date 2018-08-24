@@ -10,14 +10,14 @@ namespace ImaginationStore.Domain.Entities
     {
         public virtual int Codigo { get; protected set; }
         public virtual Produto Produto { get; protected set; }
-        public virtual Cliente Cliente { get; protected set; }
+        public virtual Fornecedor Cliente { get; protected set; }
         public virtual DateTime DataDeCriacao { get; protected set; }
         public virtual decimal ValorTotal { get; protected set; }
         public virtual bool Status { get; protected set; }
 
         public Pedido() { }
 
-        public Pedido(int codigo, Produto produto, Cliente cliente, DateTime datadecriacao, decimal valortotal, bool status)
+        public Pedido(int codigo, Produto produto, Fornecedor cliente, DateTime datadecriacao, decimal valortotal, bool status)
         {
             this.Codigo = codigo;
             this.Produto = produto;
