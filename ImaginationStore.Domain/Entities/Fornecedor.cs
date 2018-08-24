@@ -12,14 +12,16 @@ namespace ImaginationStore.Domain.Entities
         public virtual string Nome { get; protected set; }
         public virtual int Telefone { get; protected set; }
         public virtual Endereco Endereco { get; protected set; }
+        public virtual Produto Produto { get; protected set; }
 
         public Fornecedor() { }
 
-        public Fornecedor(int cnpj, string nome, int telefone, Endereco endereco)
+        public Fornecedor(int cnpj, string nome, int telefone, Endereco endereco, Produto produto)
         {
             this.CNPJ = cnpj;
             this.Nome = nome;
             this.Endereco = endereco;
+            this.Produto = produto;
         }
     }
 }

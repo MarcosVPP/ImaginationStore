@@ -3,14 +3,17 @@
                    assembly="ImaginationStore.Domain"
                    namespace="ImaginationStore.Domain.Entities">
 
-  <class name="Categoria">
+  <class name="Fornecedor">
     <cache usage="nonstrict-read-write"/>
-      
-      <id name="Codigo">
+
+    <id name="CNPJ">
       <generator class="identity"/>
     </id>
-    
+
     <property name="Nome"/>
-    
+    <property name="Telefone"/>
+    <one-to-many name="Endereco" column="Codigo" fetch="join"/>
+    <one-to-many name="Produto" column="Codigo" fetch="join"/>
+
   </class>
 </hibernate-mapping>
