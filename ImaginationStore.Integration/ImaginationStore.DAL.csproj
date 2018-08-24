@@ -84,5 +84,12 @@
       <Name>ImaginationStore.Domain</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mapping\ClienteMapping.hbm.xml" />
+    <Content Include="Mapping\EnderecoMapping.hbm.xml" />
+    <Content Include="Mapping\Fornecedor.hbm.xml" />
+    <Content Include="Mapping\Pedido.hbm.xml" />
+    <Content Include="Mapping\Produto.hbm.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
