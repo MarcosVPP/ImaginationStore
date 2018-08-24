@@ -1,7 +1,7 @@
 ﻿using NHibernate;
 using NHibernate.Cfg;
-using NHibernate.Tool.hbm2ddl;
 using System.Reflection;
+
 
 namespace ImaginationStore.Integration
 {

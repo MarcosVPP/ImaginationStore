@@ -5,7 +5,8 @@
 
   <class name="Categoria">
     <cache usage="nonstrict-read-write"/>
-    <id name="Codigo">
+      
+      <id name="Codigo">
       <generator class="identity"/>
     </id>
     <property name="Nome"/>
