@@ -23,7 +23,6 @@ namespace ImaginationStore.Domain.Entities
             this.DataDeFabricacao = datadefabricacao;
             this.DataDeValidade = datadevalidade;
             this.Quantidade = quantidade;
-
         }
 
     }
