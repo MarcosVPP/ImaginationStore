@@ -1,6 +1,4 @@
 ﻿using ImaginationStore.Domain.Entities;
-using ImaginationStore.Integration.Repositories;
-using ImaginationStore.Service.Service;
 using System;
 
 namespace ImaginationStore.Console.Presentation
@@ -12,21 +10,24 @@ namespace ImaginationStore.Console.Presentation
             //Variavel para buscar a chave primaria de qualquer classe 
             // var id = 0;
 
-            ////Salvar Categoria
-            System.Console.WriteLine("Indique quantos produtos serão cadastrados: ");
-            var QuantidadeACadastrar = Convert.ToInt32(System.Console.ReadLine());
-            while (QuantidadeACadastrar > 0)
-            {
-            System.Console.WriteLine("Escreva um ID para cadastrar: ");
-            var codigo = Convert.ToInt32(System.Console.ReadLine());
+            ////Entradas para salvar classes
+            //Salvar categoria           
+            //System.Console.WriteLine("Indique quantos produtos serão cadastrados: ");
+            //var QuantidadeACadastrar = Convert.ToInt32(System.Console.ReadLine());
+            //while (QuantidadeACadastrar > 0)
+            //{
+            //    System.Console.WriteLine("Escreva um ID para cadastrar: ");
+            //    var codigo = Convert.ToInt32(System.Console.ReadLine());
 
-            System.Console.WriteLine("Escreva um nome para a categoria: ");
-            var nome = System.Console.ReadLine();
+            //    System.Console.WriteLine("Escreva um nome para a categoria: ");
+            //    var nome = System.Console.ReadLine();
 
-            var newCategoria = new Categoria(codigo, nome);
-            SalvarCategoria(newCategoria);
-            }
+            //    var newCategoria = new Categoria(codigo, nome);
+            //    SalvarCategoria(newCategoria);
+            //}
 
+
+            ////Buscar classes via ID
             //Busca categoria via ID
             //while (id <= 0)
             //{
@@ -44,13 +45,45 @@ namespace ImaginationStore.Console.Presentation
             //    }
             //}
 
-            void SalvarCategoria(Categoria categoria)
-            {
-                new CategoriaService().SalvarCategoria(categoria);
-            }
+
+            ////Metodos salvar
+            //void SalvarCategoria(Categoria categoria)
+            //{
+            //    new CategoriaService().SalvarCategoria(categoria);
+            //}
+
+            //void SalvarCliente(Cliente cliente)
+            //{
+            //    new ClienteService().SalvarCliente(cliente);
+            //}
+
+            //void SalvarEndereco(Endereco endereco)
+            //{
+            //    new EnderecoService().SalvarEndereco(endereco);
+            //}
+
+            //void SalvarEndereco(Endereco endereco)
+            //{
+            //    new EnderecoService().SalvarEndereco(endereco);
+            //}
+
+            //void SalvarFornecedor(Fornecedor fornecedor)
+            //{
+            //    new EnderecoFornecedor().SalvarFornecedor(fornecedor);
+            //}
+
+            //void SalvarPedido(Pedido pedido)
+            //{
+            //    new EnderecoPedido().SalvarPedido(pedido);
+            //}
+
+            //void SalvarProduto(Produto produto)
+            //{
+            //    new EnderecoProduto().SalvarProduto(produto);
+            //}
 
 
-            //Classe para buscar Categoria por ID somente
+            ////Classe para buscar Categoria por ID somente
             //void BuscarCategoria()
             //{
             //    System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(id).Nome);
