@@ -32,7 +32,7 @@ namespace ImaginationStore.Console.Presentation
             //while (id <= 0)
             //{
             //    System.Console.WriteLine("Escreva um ID para buscar categoria: ");
-            //    IDcategoria = Convert.ToInt32(System.Console.ReadLine());
+            //    ID = Convert.ToInt32(System.Console.ReadLine());
 
             //    //Validação ID Categoria
             //    if (IDcategoria > 0)
