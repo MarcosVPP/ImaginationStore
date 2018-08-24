@@ -12,8 +12,7 @@ namespace ImaginationStore.Domain.Entities
         public virtual int Codigo { get; protected set; }
         public virtual string Nome { get; protected set; }
         public virtual double Valor { get; protected set; }
-        Categoria CategoriaPuxa = new Categoria();
-        public int CategoriaProduto = CategoriaPuxa.Codigo;
+        public virtual Categoria Categoria { get; protected set; }
         public virtual DateTime DataDeFabricacao { get; protected set; }
         public virtual DateTime DataDeValidade { get; protected set; }
         public virtual int Quantidade { get; protected set; }
