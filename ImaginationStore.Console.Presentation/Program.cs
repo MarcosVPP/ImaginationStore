@@ -9,8 +9,8 @@ namespace ImaginationStore.Console.Presentation
     {
         public static void Main(string[] args)
         {
-            //Variavel para buscar IDcategoria 
-            // var IDcategoria = 0;
+            //Variavel para buscar a chave primaria de qualquer classe 
+            // var id = 0;
 
             ////Salvar Categoria
             System.Console.WriteLine("Indique quantos produtos serão cadastrados: ");
@@ -28,7 +28,7 @@ namespace ImaginationStore.Console.Presentation
             }
 
             //Busca categoria via ID
-            //while (IDcategoria <= 0)
+            //while (id <= 0)
             //{
             //    System.Console.WriteLine("Escreva um ID para buscar categoria: ");
             //    IDcategoria = Convert.ToInt32(System.Console.ReadLine());
@@ -53,7 +53,7 @@ namespace ImaginationStore.Console.Presentation
             //Classe para buscar Categoria por ID somente
             //void BuscarCategoria()
             //{
-            //    System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(IDcategoria).Nome);
+            //    System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(id).Nome);
 
             //}
 
