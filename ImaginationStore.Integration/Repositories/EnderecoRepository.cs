@@ -11,18 +11,18 @@ namespace ImaginationStore.Integration.Repositories
     public static class EnderecoRepository
     {
 
-        public static void SalvarCategoria(Endereco categoria)
+        public static void SalvarEndereco(Endereco endereco)
         {
             using (ISession session = NHibernateHelper.AbreSession())
             using (ITransaction transaction = session.BeginTransaction())
             {
                 ITransaction transacao = session.BeginTransaction();
-                session.Save(categoria);
+                session.Save(endereco);
                 transacao.Commit();
             }
         }
 
-        public static Endereco BuscaProdutoPorCodigo(int id)
+        public static Endereco BuscaEnderecoPorCodigo(int id)
         {
             using (ISession session = NHibernateHelper.AbreSession())
             {

@@ -11,18 +11,18 @@ namespace ImaginationStore.Integration.Repositories
     public static class FornecedorRepository
     {
 
-        public static void SalvarCategoria(Fornecedor categoria)
+        public static void SalvarFornecedor(Fornecedor fornecedor)
         {
             using (ISession session = NHibernateHelper.AbreSession())
             using (ITransaction transaction = session.BeginTransaction())
             {
                 ITransaction transacao = session.BeginTransaction();
-                session.Save(categoria);
+                session.Save(fornecedor);
                 transacao.Commit();
             }
         }
 
-        public static Fornecedor BuscaProdutoPorCodigo(int id)
+        public static Fornecedor BuscaFornecedorPorCnpj(int id)
         {
             using (ISession session = NHibernateHelper.AbreSession())
             {
