@@ -7,11 +7,11 @@ namespace ImaginationStore.Console.Presentation
     {
         public static void Main(string[] args)
         {
-            //Variavel para buscar a chave primaria de qualquer classe 
+            //Variavel para buscar a chave primaria de qualquer classe
             // var id = 0;
 
             ////Entradas para salvar classes
-            //Salvar categoria           
+            //Salvar categoria
             //System.Console.WriteLine("Indique quantos produtos serão cadastrados: ");
             //var QuantidadeACadastrar = Convert.ToInt32(System.Console.ReadLine());
             //while (QuantidadeACadastrar > 0)
