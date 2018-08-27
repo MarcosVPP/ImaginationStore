@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImaginationStore.Service", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImaginationStore.Console.Presentation", "ImaginationStore.Console.Presentation\ImaginationStore.Console.Presentation.csproj", "{D27EDF7E-E8AF-4648-8DB2-192C94A92C70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagineStoreWeb", "ImagineStoreWeb\ImagineStoreWeb.csproj", "{C4A2B9A5-3D0C-4148-8A5B-9DDEA5EEB263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagineStoreWeb.Tests", "ImagineStoreWeb.Tests\ImagineStoreWeb.Tests.csproj", "{EAF51BA2-A661-44C3-893B-D57C45C706B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{D27EDF7E-E8AF-4648-8DB2-192C94A92C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D27EDF7E-E8AF-4648-8DB2-192C94A92C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D27EDF7E-E8AF-4648-8DB2-192C94A92C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A2B9A5-3D0C-4148-8A5B-9DDEA5EEB263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A2B9A5-3D0C-4148-8A5B-9DDEA5EEB263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A2B9A5-3D0C-4148-8A5B-9DDEA5EEB263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A2B9A5-3D0C-4148-8A5B-9DDEA5EEB263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF51BA2-A661-44C3-893B-D57C45C706B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF51BA2-A661-44C3-893B-D57C45C706B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF51BA2-A661-44C3-893B-D57C45C706B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF51BA2-A661-44C3-893B-D57C45C706B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

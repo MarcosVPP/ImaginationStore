@@ -98,6 +98,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ImagineStoreWeb\ImagineStoreWeb.csproj">
+      <Project>{C4A2B9A5-3D0C-4148-8A5B-9DDEA5EEB263}</Project>
+      <Name>ImagineStoreWeb</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
