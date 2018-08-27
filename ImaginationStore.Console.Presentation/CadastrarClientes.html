@@ -75,7 +75,6 @@
     </script>
     </head>
 <body>
-
 <form method="post">
     <!--CADASTRAR CLIENTE-->
 <fieldset>
@@ -86,7 +85,7 @@
     <label for="codigo">Codigo: </label>
    </td>
    <td align="left">
-    <input type="a" name="email">
+    <input type="a" name="codigo">
    </td>
   </tr>
   <tr>
@@ -94,7 +93,7 @@
     <label for="nome">Nome: </label>
    </td>
    <td align="left">
-    <input type="text" name="email">
+    <input type="text" name="nome">
    </td>
   </tr>
   <tr>
@@ -102,7 +101,7 @@
     <label for="tefefone">Telefone: </label>
    </td>
    <td align="left">
-    <input type="tel" name="email"
+    <input type="tel" name="telefone"
            placeholder="(DDD) 1234-5678"
            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
            required />
@@ -113,7 +112,17 @@
     <label for="filiacao">Filiação: </label>
    </td>
    <td align="left">
-    <input type="text" name="email">
+    <input type="text" name="filiacao">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="status">Status do Cliente: </label>
+   </td>
+   <td align="left">
+    <select>
+      
+    </select>
    </td>
   </tr>
  </table>
@@ -145,7 +154,7 @@
     <label for="numero">Numero:</label>
    </td>
    <td align="left">
-    <input type="text" name="numero" size="4">
+    <input name="numero" type="text" id="numero" size="4" maxlength="5">
    </td>
   </tr>
   <tr>
