@@ -26,15 +26,11 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Domain.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Integration.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\NHibernate.dll
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\Remotion.Linq.dll
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\Remotion.Linq.EagerFetching.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\Antlr3.Runtime.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\Iesi.Collections.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Domain.pdb
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Integration.pdb
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\NHibernate.xml
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\Remotion.Linq.xml
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\Remotion.Linq.EagerFetching.xml
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\Antlr3.Runtime.xml
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\Iesi.Collections.xml
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csprojAssemblyReference.cache

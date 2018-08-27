@@ -84,8 +84,8 @@
     <None Include="Scripts\esm\popper-utils.min.js.map" />
     <None Include="Scripts\esm\popper.js.map" />
     <None Include="Scripts\esm\popper.min.js.map" />
-    <None Include="Scripts\jquery-3.0.0.min.map" />
-    <None Include="Scripts\jquery-3.0.0.slim.min.map" />
+    <None Include="Scripts\jquery-3.3.1.min.map" />
+    <None Include="Scripts\jquery-3.3.1.slim.min.map" />
     <None Include="Scripts\popper-utils.js.map" />
     <None Include="Scripts\popper-utils.min.js.map" />
     <None Include="Scripts\popper.js.map" />
@@ -129,11 +129,11 @@
     <Content Include="Scripts\esm\popper-utils.min.js" />
     <Content Include="Scripts\esm\popper.js" />
     <Content Include="Scripts\esm\popper.min.js" />
-    <Content Include="Scripts\jquery-3.0.0-vsdoc.js" />
-    <Content Include="Scripts\jquery-3.0.0.js" />
-    <Content Include="Scripts\jquery-3.0.0.min.js" />
-    <Content Include="Scripts\jquery-3.0.0.slim.js" />
-    <Content Include="Scripts\jquery-3.0.0.slim.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <Content Include="Scripts\popper-utils.js" />
     <Content Include="Scripts\popper-utils.min.js" />
     <Content Include="Scripts\popper.js" />

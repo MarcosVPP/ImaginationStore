@@ -18,11 +18,6 @@ namespace ImagineStoreWeb.Tests.Controllers
             // Arrange
             HomeController controller = new HomeController();
 
-            // Act
-            ViewResult result = controller.Index() as ViewResult;
-
-            // Assert
-            Assert.IsNotNull(result);
         }
 
         [TestMethod]
