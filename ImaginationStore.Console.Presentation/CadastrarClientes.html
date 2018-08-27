@@ -71,7 +71,6 @@
                 }
             });
         });
-
     </script>
     </head>
 <body>
@@ -85,7 +84,7 @@
     <label for="codigo">Codigo: </label>
    </td>
    <td align="left">
-    <input type="a" name="codigo">
+    <input type="text" name="codigo">
    </td>
   </tr>
   <tr>
@@ -101,7 +100,7 @@
     <label for="tefefone">Telefone: </label>
    </td>
    <td align="left">
-    <input type="tel" name="telefone"
+    <input type="text" name="telefone"
            placeholder="(DDD) 1234-5678"
            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
            required />
@@ -121,14 +120,23 @@
    </td>
    <td align="left">
     <select>
-      
+      <option value="1">BOM</option>
+      <option value="2">MÉDIO</option>
+      <option value="3">RUIM</option>
     </select>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="limiteCredito">Limite de Crédito: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="limiteCredito">
    </td>
   </tr>
  </table>
 </fieldset>
 </form>
-
 <br />
 <form method="get" action=".">
 <!-- ENDEREÇO -->
@@ -140,7 +148,7 @@
     <label for="cep">Cep: </label>
    </td>
    <td align="left">
-    <input name="cep" type="text" id="cep" value="" size="5" maxlength="8">
+    <input name="cep" type="text" id="cep" value="" maxlength="8">
    </td>
   </tr>
   <tr>
@@ -165,15 +173,6 @@
     <input name="bairro" type="text" id="bairro">
    </td>
   </tr>
-  <tr>
-   <td>
-    <label for="estado">Estado:</label>
-   </td>
-   <td align="left">
-    <input name="uf" type="text" id="uf" size="2" /></label><br />
-   </td>
-  </tr>
-  <tr>
    <td>
     <label for="cidade">Cidade: </label>
    </td>
@@ -181,13 +180,20 @@
     <input name="cidade" type="text" id="cidade">
    </td>
   </tr>
+  <tr>
+   <td>
+    <label for="estado">Estado:</label>
+   </td>
+   <td align="left">
+    <input name="uf" type="text" id="uf" size="1" /></label><br />
+   </td>
+  </tr>
+  <tr>
  </table>
 </fieldset>
 </form>
 <br />
-<input type="submit">
-<input type="reset" value="Limpar">
+<a href="ConsultaClientes.html"><input type="button"value="Cadastrar"></a>
 </form>
-
 </body>
 </html>
