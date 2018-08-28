@@ -223,3 +223,4 @@ F:\GitProjetos\ImaginationStore\ImagineStoreWeb\obj\Debug\ImagineStoreWeb.csproj
 F:\GitProjetos\ImaginationStore\ImagineStoreWeb\obj\Debug\ImagineStoreWeb.dll
 F:\GitProjetos\ImaginationStore\ImagineStoreWeb\obj\Debug\ImagineStoreWeb.pdb
 >>>>>>> 7cdf7f904cd74fe3aa9c540ea1424c7711e3d605
+F:\GitProjetos\ImaginationStore\ImagineStoreWeb\bin\Antlr3.Runtime.xml

@@ -1,0 +1,45 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+h5 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+/* Stackoverflow preview fix, please ignore */
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}

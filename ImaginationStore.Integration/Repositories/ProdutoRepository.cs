@@ -26,7 +26,7 @@ namespace ImaginationStore.Integration.Repositories
         {
             using (ISession session = NHibernateHelper.AbreSession())
             {
-                IList<Categoria> 
+                //IList<Categoria> 
                 return session.Get<Produto>(id);
             }
         }

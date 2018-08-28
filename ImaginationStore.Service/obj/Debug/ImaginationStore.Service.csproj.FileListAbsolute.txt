@@ -40,6 +40,7 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.pdb
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.dll.config
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Integration.dll.config
+F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csproj.CoreCompileInputs.cache
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\hibernate.cfg.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.dll.config
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.dll
@@ -56,7 +57,6 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\NHibernate.xm
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\Antlr3.Runtime.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\Iesi.Collections.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csprojAssemblyReference.cache
-F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csproj.CoreCompileInputs.cache
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csproj.CopyComplete
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.pdb

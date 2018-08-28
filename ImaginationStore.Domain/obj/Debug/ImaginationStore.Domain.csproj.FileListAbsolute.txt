@@ -11,7 +11,6 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Domain\obj\
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.pdb
 F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\bin\Debug\ImaginationStore.Domain.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\bin\Debug\ImaginationStore.Domain.pdb
-F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.csprojAssemblyReference.cache
 F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.csproj.CoreCompileInputs.cache
 F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.pdb

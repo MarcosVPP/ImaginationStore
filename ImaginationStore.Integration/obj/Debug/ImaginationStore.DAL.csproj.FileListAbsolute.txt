@@ -39,6 +39,8 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Integration
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Integration\obj\Debug\ImaginationStore.Integration.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Integration\obj\Debug\ImaginationStore.Integration.pdb
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Integration\bin\Debug\ImaginationStore.Integration.dll.config
+F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\obj\Debug\ImaginationStore.DAL.csprojAssemblyReference.cache
+F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\obj\Debug\ImaginationStore.DAL.csproj.CoreCompileInputs.cache
 F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\bin\Debug\hibernate.cfg.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\bin\Debug\ImaginationStore.Integration.dll.config
 F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\bin\Debug\ImaginationStore.Integration.dll
@@ -55,8 +57,6 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\bin\Debug\Iesi.Coll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\bin\Debug\NHibernate.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\bin\Debug\Remotion.Linq.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\bin\Debug\Remotion.Linq.EagerFetching.xml
-F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\obj\Debug\ImaginationStore.DAL.csprojAssemblyReference.cache
-F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\obj\Debug\ImaginationStore.DAL.csproj.CoreCompileInputs.cache
 F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\obj\Debug\ImaginationStore.DAL.csproj.CopyComplete
 F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\obj\Debug\ImaginationStore.Integration.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Integration\obj\Debug\ImaginationStore.Integration.pdb
