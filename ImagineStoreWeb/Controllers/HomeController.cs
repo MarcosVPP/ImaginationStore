@@ -11,12 +11,12 @@ namespace ImagineStoreWeb.Controllers
     {
         int id = 2;
 
-        public ActionResult Menu()
-        {
-           // BuscarCategoria buscarcategoria = new BuscarCategoria();
-          //  ViewBag.Categoria = buscarcategoria();
-            return View();
-        }
+        //public ActionRessult Menu()
+        //{
+        //   // BuscarCategoria buscarcategoria = new BuscarCategoria();
+        //  //  ViewBag.Categoria = buscarcategoria();
+        //    return View();
+        //}
         void BuscarCategoria()
         {
            // System.Console.WriteLine(CategoriaRepository.BuscaCategoriaPorCodigo(id).nome);

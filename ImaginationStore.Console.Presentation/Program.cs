@@ -9,7 +9,7 @@ namespace ImaginationStore.Console.Presentation
         public static void Main(string[] args)
         {
             //Variavel para buscar a chave primaria de qualquer classe
-            var id = 0;
+            //var id = 0;
 
             ////Entradas para salvar classes
             //Salvar categoria
@@ -235,11 +235,17 @@ namespace ImaginationStore.Console.Presentation
 
 
             ////Classe para buscar Categoria por ID somente
+<<<<<<< HEAD
             void BuscarCategoria()
             {
                 //System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(id).nome);
+=======
+            //void BuscarCategoria()
+            //{
+            //    System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(id).nome);
+>>>>>>> 247520987a5e45e67f7dcabc3de7534a606043ef
 
-            }
+            //}
 
 
             //"Break point" para poder ver a tela ao finalziar todas as ações
