@@ -47,16 +47,12 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationSt
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Domain.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Integration.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\NHibernate.dll
-F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\Remotion.Linq.dll
-F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\Remotion.Linq.EagerFetching.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\Antlr3.Runtime.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\Iesi.Collections.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Domain.pdb
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Integration.pdb
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Integration.dll.config
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\NHibernate.xml
-F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\Remotion.Linq.xml
-F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\Remotion.Linq.EagerFetching.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\Antlr3.Runtime.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\Iesi.Collections.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csprojAssemblyReference.cache
