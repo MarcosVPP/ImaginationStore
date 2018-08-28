@@ -1,4 +1,5 @@
 ﻿using ImaginationStore.Domain.Entities;
+using ImaginationStore.Integration.Repositories;
 using System;
 
 namespace ImaginationStore.Console.Presentation
@@ -8,7 +9,7 @@ namespace ImaginationStore.Console.Presentation
         public static void Main(string[] args)
         {
             //Variavel para buscar a chave primaria de qualquer classe
-            // var id = 0;
+            var id = 0;
 
             ////Entradas para salvar classes
             //Salvar categoria
@@ -217,11 +218,6 @@ namespace ImaginationStore.Console.Presentation
             //    new EnderecoService().SalvarEndereco(endereco);
             //}
 
-            //void SalvarEndereco(Endereco endereco)
-            //{
-            //    new EnderecoService().SalvarEndereco(endereco);
-            //}
-
             //void SalvarFornecedor(Fornecedor fornecedor)
             //{
             //    new EnderecoFornecedor().SalvarFornecedor(fornecedor);
@@ -239,11 +235,11 @@ namespace ImaginationStore.Console.Presentation
 
 
             ////Classe para buscar Categoria por ID somente
-            //void BuscarCategoria()
-            //{
-            //    System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(id).Nome);
+            void BuscarCategoria()
+            {
+                System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(id).nome);
 
-            //}
+            }
 
 
             //"Break point" para poder ver a tela ao finalziar todas as ações

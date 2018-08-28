@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using ImaginationStore.Domain.Entities;
+﻿using ImaginationStore.Integration.Repositories;
+using System;
 using System.Web.Mvc;
+using NHibernate;
+using System.Collections.Generic;
 using ImaginationStore.Integration.Repositories;
 
 namespace ImagineStoreWeb.Controllers
@@ -14,17 +13,14 @@ namespace ImagineStoreWeb.Controllers
 
         public ActionResult Menu()
         {
-           
-            ViewBag.BuscarCategoria();
-
+           // BuscarCategoria buscarcategoria = new BuscarCategoria();
+          //  ViewBag.Categoria = buscarcategoria();
             return View();
         }
-
-        //Classe para buscar Categoria por ID somente
         void BuscarCategoria()
         {
-           Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(id).Nome);
-           
+           // System.Console.WriteLine(CategoriaRepository.BuscaCategoriaPorCodigo(id).nome);
+
         }
 
     }
