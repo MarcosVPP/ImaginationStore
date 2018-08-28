@@ -224,4 +224,8 @@ F:\GitProjetos\ImaginationStore\ImagineStoreWeb\obj\Debug\ImagineStoreWeb.dll
 F:\GitProjetos\ImaginationStore\ImagineStoreWeb\obj\Debug\ImagineStoreWeb.pdb
 >>>>>>> 7cdf7f904cd74fe3aa9c540ea1424c7711e3d605
 F:\GitProjetos\ImaginationStore\ImagineStoreWeb\bin\Antlr3.Runtime.xml
+<<<<<<< HEAD
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\pt-br\System.Web.Optimization.resources.dll
+=======
+F:\GitProjetos\ImaginationStore\ImagineStoreWeb\bin\pt-br\System.Web.Optimization.resources.dll
+>>>>>>> b4217a9592ab6c45892ea9e053a5ea6110d211a3

@@ -95,6 +95,7 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\Imaginat
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.csproj.CopyComplete
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.pdb
+<<<<<<< HEAD
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\ApplicationInsights.config
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\ImaginationStore.Presentation.dll.config
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\ImaginationStore.Presentation.dll
@@ -193,3 +194,6 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentatio
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.csproj.CopyComplete
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.pdb
+=======
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.csprojAssemblyReference.cache
+>>>>>>> b4217a9592ab6c45892ea9e053a5ea6110d211a3
