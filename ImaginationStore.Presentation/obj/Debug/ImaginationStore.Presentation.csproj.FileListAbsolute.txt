@@ -95,3 +95,4 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\Imaginat
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.csproj.CopyComplete
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.pdb
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.csprojAssemblyReference.cache
