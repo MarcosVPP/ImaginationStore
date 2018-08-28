@@ -77,7 +77,6 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\System.W
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\System.Web.WebPages.Deployment.xml
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\System.Web.WebPages.Razor.xml
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Newtonsoft.Json.xml
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Antlr3.Runtime.pdb
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Microsoft.AI.DependencyCollector.xml
@@ -109,3 +108,4 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Remotion
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Remotion.Linq.EagerFetching.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Remotion.Linq.xml
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Remotion.Linq.EagerFetching.xml
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Antlr3.Runtime.xml
