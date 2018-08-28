@@ -104,3 +104,8 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Iesi.Col
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Microsoft.AI.PerfCounterCollector.xml
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\hibernate.cfg.xml
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Remotion.Linq.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Remotion.Linq.EagerFetching.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Remotion.Linq.xml
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImagineStoreWeb\bin\Remotion.Linq.EagerFetching.xml

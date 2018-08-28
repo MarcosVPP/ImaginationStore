@@ -244,6 +244,10 @@
       <Project>{7f7c32df-e837-4865-b729-99d982e1076c}</Project>
       <Name>ImaginationStore.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ImaginationStore.Integration\ImaginationStore.DAL.csproj">
+      <Project>{d538de36-aad5-4028-868f-b23f02ee4223}</Project>
+      <Name>ImaginationStore.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ImaginationStore.Service\ImaginationStore.Service.csproj">
       <Project>{8498f9ab-ca35-4693-9f68-f5e88673b968}</Project>
       <Name>ImaginationStore.Service</Name>
