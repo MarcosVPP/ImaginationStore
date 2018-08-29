@@ -129,12 +129,7 @@
             </table>
 
 
-            @using (Html.BeginForm("action", "Homecontroller"))
-            {
-                {
-                    <input type="button" name="button" class="button1" value="Create"/>
-                }
-            }
+            @Html.ActionLink("Teste","Salvar","Cliente", new { @class = "btn btn-primary" })
 
             </fieldset>
     </form>
