@@ -18,7 +18,7 @@
                         
                     </td>
                     <td align="left">
-                        <input type="text" name="codigo">
+                        <input type="text" name="codigo" disabled>
                     </td>
                 </tr>
                 <tr>
@@ -35,7 +35,7 @@
                     </td>
                     <td align="left">
                         <input type="text" name="telefone"
-                               placeholder="(DDD) 1234-5678"
+                               placeholder="ex.:(DDD) 1234-5678"
                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                                required />
                     </td>
@@ -111,25 +111,28 @@
                     <td>
                         <label for="cidade">Cidade: </label>
                     </td>
-                </tr>
-                <tr>
                     <td align="left">
                         <input name="cidade" type="text" id="cidade">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label for="estado">Estado:</label>
+                        <label for="estado">Estado: </label>
                     </td>
                     <td align="left">
-                        <input name="uf" type="text" id="uf" size="1" /><br />
+                        <input name="uf" type="text" id="uf" size="1" maxlength="2"/><br />
                     </td>
                 </tr>
                 <tr>
             </table>
+            <br />
 
+<<<<<<< HEAD
 
             @Html.ActionLink("Busca", "Details", "Cliente")
+=======
+            @Html.ActionLink("Cadastrar","Salvar","Cliente", new { @class = "btn btn-primary" })
+>>>>>>> a725353253defd1f4f0cc58ebe9ecaaeb7db715f
 
             </fieldset>
     </form>
