@@ -14,7 +14,8 @@
             <table cellspacing="10">
                 <tr>
                     <td>
-                        <label for="codigo">Codigo: </label>
+                        <label for="codigo" name="codigo">Codigo: </label>
+                        
                     </td>
                     <td align="left">
                         <input type="text" name="codigo">
@@ -126,7 +127,11 @@
                 </tr>
                 <tr>
             </table>
-        </fieldset>
+
+
+            @Html.ActionLink("Teste","Salvar","Cliente", new { @class = "btn btn-primary" })
+
+            </fieldset>
     </form>
     <br />
 </div>

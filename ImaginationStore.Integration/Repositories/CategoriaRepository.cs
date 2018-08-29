@@ -22,6 +22,7 @@ namespace ImaginationStore.Integration.Repositories
             }
         }
 
+
         public static Categoria BuscaCategoriaPorCodigo(int id)
         {
             using (ISession session = NHibernateHelper.AbreSession())
