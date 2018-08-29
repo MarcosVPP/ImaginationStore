@@ -17,3 +17,4 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csproj.CopyComplete
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.pdb
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csprojAssemblyReference.cache

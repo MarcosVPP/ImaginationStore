@@ -14,3 +14,4 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\bin\Debug\ImaginationSto
 F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.csproj.CoreCompileInputs.cache
 F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.pdb
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.csprojAssemblyReference.cache

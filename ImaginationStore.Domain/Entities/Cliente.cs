@@ -2,7 +2,7 @@
 {
     public class Cliente
     {
-        public virtual int Codigo { get; protected set; }
+        public virtual int ID { get; protected set; }
         public virtual string Nome { get; protected set; }
         public virtual int Telefone { get; protected set; }
         public virtual string Filiacao { get; protected set; }
@@ -15,7 +15,7 @@
 
         public Cliente(int codigo, string nome, int telefone, string filiacao, int status, Endereco endereco, decimal limitedecredito)
         {
-            this.Codigo = codigo;
+            this.ID = codigo;
             this.Nome = nome;
             this.Telefone = telefone;
             this.Filiacao = filiacao;
