@@ -14,17 +14,11 @@
             <table cellspacing="10">
                 <tr>
                     <td>
-                        
 
-                        Codigo: @Html.TextBox("CodigoCliente", "1")
 
-                        <!--<label for="codigo" name="codigo">brgnb: </label>
+                        Codigo: @Html.TextBox("CodigoCliente", "1", new { maxlength = 50, type = "text"})
 
-    </td>
-    <td align="left">
-        <input type="text" name="codigo" disabled>
-    </td>-->
-</tr>
+                </tr>
                 <tr>
                     <td>
                         <label for="nome">Nome: </label>
@@ -124,15 +118,15 @@
                         <label for="estado">Estado: </label>
                     </td>
                     <td align="left">
-              
-                        <input name="uf" type="text" id="uf" size="1" maxlength="2"/><br />
+
+                        <input name="uf" type="text" id="uf" size="1" maxlength="2" /><br />
                     </td>
                 </tr>
                 <tr>
             </table>
             <br />
 
-            </fieldset>
+        </fieldset>
     </form>
     <br />
 </div>
