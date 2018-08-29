@@ -14,12 +14,15 @@
             <table cellspacing="10">
                 <tr>
                     <td>
-                        <label for="codigo" name="codigo">Codigo: </label>
-                        
+
+                        @Html.TextBox("CodigoCliente", "Details" )
+
+                        <!--<label for="codigo" name="codigo">brgnb: </label>
+
                     </td>
                     <td align="left">
                         <input type="text" name="codigo" disabled>
-                    </td>
+                    </td>-->
                 </tr>
                 <tr>
                     <td>
@@ -127,12 +130,8 @@
             </table>
             <br />
 
-<<<<<<< HEAD
-
             @Html.ActionLink("Busca", "Details", "Cliente")
-=======
-            @Html.ActionLink("Cadastrar","Salvar","Cliente", new { @class = "btn btn-primary" })
->>>>>>> a725353253defd1f4f0cc58ebe9ecaaeb7db715f
+
 
             </fieldset>
     </form>

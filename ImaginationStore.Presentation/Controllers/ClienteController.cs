@@ -19,6 +19,7 @@ namespace ImaginationStore.Presentation.Controllers
         public ActionResult Details(int id)
         {
          //   BuscarCategoria();
+
             return View();
 
         }
