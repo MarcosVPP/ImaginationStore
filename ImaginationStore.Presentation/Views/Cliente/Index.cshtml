@@ -14,10 +14,18 @@
             <table cellspacing="10">
                 <tr>
                     <td>
+<<<<<<< HEAD
 
 
                         Codigo: @Html.TextBox("CodigoCliente", "1", new { maxlength = 50, type = "text"})
 
+=======
+                        <label for="codigo" name="codigo">Código: </label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="codigo" disabled>
+                    </td>
+>>>>>>> 1014fd749191ebca471b6891c57eb0b55f67f1b8
                 </tr>
                 <tr>
                     <td>
@@ -80,7 +88,7 @@
                         <label for="cep">Cep: </label>
                     </td>
                     <td align="left">
-                        <input name="cep" type="text" id="cep" value="" maxlength="8">
+                        @Html.TextBox("cep", Convert.ToInt32(Console.ReadLine()))
                     </td>
                 </tr>
                 <tr>
@@ -88,6 +96,7 @@
                         <label for="rua">Rua:</label>
                     </td>
                     <td align="left">
+                        @Html.TextBox("")
                         <input name="rua" type="text" id="rua">
                     </td>
                     <td>
@@ -118,15 +127,27 @@
                         <label for="estado">Estado: </label>
                     </td>
                     <td align="left">
+<<<<<<< HEAD
 
                         <input name="uf" type="text" id="uf" size="1" maxlength="2" /><br />
+=======
+                        <input name="uf" type="text" id="uf" size="1" maxlength="2"/><br />
+>>>>>>> 1014fd749191ebca471b6891c57eb0b55f67f1b8
                     </td>
                 </tr>
                 <tr>
             </table>
             <br />
 
+<<<<<<< HEAD
         </fieldset>
+=======
+            @Html.ActionLink("Busca", "Details", "Cliente", new { @class = "btn btn-primary" })
+
+            @Html.ActionLink("Cadastrar","Salvar","Cliente", new { @class = "btn btn-primary" })
+
+            </fieldset>
+>>>>>>> 1014fd749191ebca471b6891c57eb0b55f67f1b8
     </form>
     <br />
 </div>
