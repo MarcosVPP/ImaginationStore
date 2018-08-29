@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\hibernate.cfg.xml
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.dll.config
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.dll
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.pdb
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Domain.dll
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Integration.dll
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\NHibernate.dll
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\Antlr3.Runtime.dll
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\Iesi.Collections.dll
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Domain.pdb
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Integration.pdb
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Integration.dll.config
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\NHibernate.xml
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\Antlr3.Runtime.xml
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\Iesi.Collections.xml
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csproj.CoreCompileInputs.cache
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csproj.CopyComplete
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.dll
-C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.pdb
-=======
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\hibernate.cfg.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.dll.config
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.dll
@@ -39,4 +18,3 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationSt
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csproj.CopyComplete
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.pdb
->>>>>>> dbcfe4e6d315bbe230bca36f9a6f6a5612b90315
