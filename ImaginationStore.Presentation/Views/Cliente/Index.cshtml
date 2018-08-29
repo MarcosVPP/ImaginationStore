@@ -14,15 +14,11 @@
             <table cellspacing="10">
                 <tr>
                     <td>
-
-                        @Html.TextBox("CodigoCliente", "Details" )
-
-                        <!--<label for="codigo" name="codigo">brgnb: </label>
-
+                        <label for="codigo" name="codigo">Código: </label>
                     </td>
                     <td align="left">
                         <input type="text" name="codigo" disabled>
-                    </td>-->
+                    </td>
                 </tr>
                 <tr>
                     <td>
@@ -85,6 +81,7 @@
                         <label for="cep">Cep: </label>
                     </td>
                     <td align="left">
+                        @Html.TextBox("cep", Convert.ToInt32(Console.ReadLine()))
                         <input name="cep" type="text" id="cep" value="" maxlength="8">
                     </td>
                 </tr>
@@ -93,6 +90,7 @@
                         <label for="rua">Rua:</label>
                     </td>
                     <td align="left">
+                        @Html.TextBox("")
                         <input name="rua" type="text" id="rua">
                     </td>
                     <td>
@@ -130,14 +128,9 @@
             </table>
             <br />
 
-<<<<<<< HEAD
-            @Html.ActionLink("Busca", "Details", "Cliente")
-=======
             @Html.ActionLink("Busca", "Details", "Cliente", new { @class = "btn btn-primary" })
 
             @Html.ActionLink("Cadastrar","Salvar","Cliente", new { @class = "btn btn-primary" })
->>>>>>> dbcfe4e6d315bbe230bca36f9a6f6a5612b90315
-
 
             </fieldset>
     </form>
