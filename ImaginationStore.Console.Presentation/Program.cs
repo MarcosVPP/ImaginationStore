@@ -235,19 +235,18 @@ namespace ImaginationStore.Console.Presentation
 
 
             ////Classe para buscar Categoria por ID somente
-<<<<<<< HEAD
-=======
 
-            void BuscarCategoria()
-            {
-                //System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(id).nome);
->>>>>>> b4217a9592ab6c45892ea9e053a5ea6110d211a3
 
-                //void BuscarCategoria()
-                //{
-                //    System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(id).nome);
+            //void BuscarCategoria()
+            //{
+            //    System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(id).nome);
 
-                //}
+
+            //    void BuscarCategoria()
+            //    {
+            //        System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(id).nome);
+
+            //    }
 
 
                 //"Break point" para poder ver a tela ao finalziar todas as ações
@@ -256,4 +255,4 @@ namespace ImaginationStore.Console.Presentation
             }
         }
     }
-}
+
