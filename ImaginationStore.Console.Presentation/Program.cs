@@ -39,10 +39,10 @@ namespace ImaginationStore.Console.Presentation
             //    var nome = System.Console.ReadLine();
 
             //    System.Console.WriteLine("Escreva um nome para a categoria: ");
-            //  var telefone = Convert.ToInt16(System.Console.ReadLine());
+            //    var telefone = Convert.ToInt16(System.Console.ReadLine());
 
             //    System.Console.WriteLine("Escreva um nome para a categoria: ");
-            //  var filiacao = System.Console.ReadLine();
+            //    var filiacao = System.Console.ReadLine();
 
             //    System.Console.WriteLine("Escreva um nome para a categoria: ");
             //    var status = System.Console.ReadLine();
@@ -68,10 +68,10 @@ namespace ImaginationStore.Console.Presentation
             //    var Rua = System.Console.ReadLine();
 
             //    System.Console.WriteLine("Escreva um nome para a categoria: ");
-            //  var cep = Convert.ToInt16(System.Console.ReadLine());
+            //    var cep = Convert.ToInt16(System.Console.ReadLine());
 
             //    System.Console.WriteLine("Escreva um nome para a categoria: ");
-            //  var numero = Convert.ToInt16(System.Console.ReadLine());
+            //    var numero = Convert.ToInt16(System.Console.ReadLine());
 
             //    System.Console.WriteLine("Escreva um nome para a categoria: ");
             //    var bairro = System.Console.ReadLine();
@@ -235,11 +235,6 @@ namespace ImaginationStore.Console.Presentation
 
 
             ////Classe para buscar Categoria por ID somente
-
-
-            //void BuscarCategoria()
-            //{
-            //    System.Console.WriteLine(CategoriaRepository.BuscaProdutoPorCodigo(id).nome);
 
 
             //    void BuscarCategoria()

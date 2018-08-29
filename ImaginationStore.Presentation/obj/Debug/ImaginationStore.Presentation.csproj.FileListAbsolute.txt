@@ -109,6 +109,16 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentatio
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.csproj.CopyComplete
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.pdb
+<<<<<<< HEAD
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\EntityFramework.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\EntityFramework.SqlServer.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\Remotion.Linq.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\Remotion.Linq.EagerFetching.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\EntityFramework.xml
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\EntityFramework.SqlServer.xml
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\Remotion.Linq.xml
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\Remotion.Linq.EagerFetching.xml
+=======
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\ApplicationInsights.config
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\hibernate.cfg.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\ImaginationStore.Presentation.dll.config
@@ -220,3 +230,4 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\Imaginat
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.csproj.CopyComplete
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.pdb
+>>>>>>> a725353253defd1f4f0cc58ebe9ecaaeb7db715f

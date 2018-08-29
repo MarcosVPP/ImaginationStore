@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ImaginationStore.Integration.Repositories;
 
 namespace ImaginationStore.Presentation.Controllers
 {
@@ -17,7 +18,15 @@ namespace ImaginationStore.Presentation.Controllers
         // GET: Cliente/Details/5
         public ActionResult Details(int id)
         {
+         //   BuscarCategoria();
             return View();
+
+        }
+ 
+        //Pesquisa categoria por ID
+        void BuscarCategoria()
+        {
+            //System.Console.WriteLine(CategoriaRepository.BuscaCategoriaPorCodigo(id));
         }
 
         // GET: Cliente/Create

@@ -2,8 +2,8 @@
 {
     public class Categoria
     {
-        public virtual int Codigo { get; protected set; }
-        public virtual string Nome { get; protected set; }
+        public virtual int Codigo { get; set; }
+        public virtual string Nome { get; set; }
 
         public Categoria() { }
 

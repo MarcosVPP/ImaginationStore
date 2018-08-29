@@ -17,6 +17,9 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csproj.CopyComplete
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.pdb
+<<<<<<< HEAD
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csprojAssemblyReference.cache
+=======
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\hibernate.cfg.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.dll.config
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.dll
@@ -37,3 +40,4 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationSt
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csproj.CopyComplete
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.pdb
+>>>>>>> a725353253defd1f4f0cc58ebe9ecaaeb7db715f

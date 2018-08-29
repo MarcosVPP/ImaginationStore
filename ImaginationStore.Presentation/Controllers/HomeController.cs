@@ -15,17 +15,6 @@ namespace ImaginationStore.Presentation.Controllers
             return View();
         }
 
-        [HttpPost]
-        public ActionResult MyAction(string button)
-        {
-            return View("TestView");
-        }
-
-        //public ActionResult Index()
-        //{
-        //    return View();
-        //}
-
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
