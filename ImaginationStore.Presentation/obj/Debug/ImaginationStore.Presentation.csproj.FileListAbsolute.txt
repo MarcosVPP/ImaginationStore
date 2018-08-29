@@ -231,3 +231,11 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\Imaginat
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.pdb
 >>>>>>> a725353253defd1f4f0cc58ebe9ecaaeb7db715f
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\EntityFramework.dll
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\EntityFramework.SqlServer.dll
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\Remotion.Linq.dll
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\Remotion.Linq.EagerFetching.dll
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\EntityFramework.xml
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\EntityFramework.SqlServer.xml
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\Remotion.Linq.xml
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\Remotion.Linq.EagerFetching.xml
