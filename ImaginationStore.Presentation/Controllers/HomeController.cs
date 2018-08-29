@@ -3,15 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ImaginationStore.Integration.Repositories;
 
 namespace ImaginationStore.Presentation.Controllers
 {
     public class HomeController : Controller
     {
+
         public ActionResult Index()
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult MyAction(string button)
+        {
+            return View("TestView");
+        }
+
+        //public ActionResult Index()
+        //{
+        //    return View();
+        //}
 
         public ActionResult About()
         {

@@ -14,7 +14,8 @@
             <table cellspacing="10">
                 <tr>
                     <td>
-                        <label for="codigo">Codigo: </label>
+                        <label for="codigo" name="codigo">Codigo: </label>
+                        
                     </td>
                     <td align="left">
                         <input type="text" name="codigo">
@@ -126,7 +127,16 @@
                 </tr>
                 <tr>
             </table>
-        </fieldset>
+
+
+            @using (Html.BeginForm("action", "Homecontroller"))
+            {
+                {
+                    <input type="button" name="button" class="button1" value="Create"/>
+                }
+            }
+
+            </fieldset>
     </form>
     <br />
 </div>

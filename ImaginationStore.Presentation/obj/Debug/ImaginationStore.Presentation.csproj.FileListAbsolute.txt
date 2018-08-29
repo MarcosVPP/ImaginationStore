@@ -95,3 +95,17 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentatio
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.csproj.CopyComplete
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.pdb
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.csprojAssemblyReference.cache
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\hibernate.cfg.xml
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\ImaginationStore.Domain.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\ImaginationStore.Integration.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\ImaginationStore.Service.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\NHibernate.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\Iesi.Collections.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\ImaginationStore.Domain.pdb
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\ImaginationStore.Integration.pdb
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\ImaginationStore.Integration.dll.config
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\ImaginationStore.Service.pdb
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\ImaginationStore.Service.dll.config
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\NHibernate.xml
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\Iesi.Collections.xml
