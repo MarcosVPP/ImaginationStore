@@ -10,7 +10,7 @@ namespace ImaginationStore.Presentation.Controllers
     public class ClienteController : Controller
     {
         // GET: Cliente
-        public ActionResult Index(ClienteService.))
+        public ActionResult Index()
         {
             return View();
         }
@@ -95,12 +95,5 @@ namespace ImaginationStore.Presentation.Controllers
                 return View();
             }
         }  
-
-    public var salvacliente()
-    {
-
-
-    }
-
     }
 }
