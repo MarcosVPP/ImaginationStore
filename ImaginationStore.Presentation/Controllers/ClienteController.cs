@@ -19,8 +19,12 @@ namespace ImaginationStore.Presentation.Controllers
 
         // GET: Cliente
         [HttpPost]
+<<<<<<< HEAD
         public ActionResult Get(Cliente cliente)
 
+=======
+        public ActionResult Get(/*ClienteService salvarcliente*/)
+>>>>>>> 9bf0e8d14de279917d8914df42525cb2d8c23e36
         {
             cliente = (new ClienteService()).Get(cliente.Codigo);
 
@@ -109,7 +113,11 @@ namespace ImaginationStore.Presentation.Controllers
             {
                 return View();
             }
+<<<<<<< HEAD
 
+=======
+        }
+>>>>>>> 9bf0e8d14de279917d8914df42525cb2d8c23e36
         }
     }
-}
+
