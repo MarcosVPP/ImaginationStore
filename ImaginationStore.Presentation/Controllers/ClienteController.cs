@@ -11,17 +11,17 @@ namespace ImaginationStore.Presentation.Controllers
 {
     public class ClienteController : Controller
     {
+        public ActionResult Index(/*ClienteService salvarcliente*/)
+        {
+            return View();
+        }
 
 
         // GET: Cliente
-<<<<<<< HEAD
         [HttpPost]
-        public ActionResult Index(/*ClienteService salvarcliente*/)
-=======
-        public ActionResult Index()
->>>>>>> 11ea52c82ea9f04dd57a89017dc6bfbbac697085
+        public ActionResult Get(/*ClienteService salvarcliente*/)
         {
-            object test;
+            //object test;
             //Tentando chamar o metodo para salvar cliente
             //ClienteService.SalvarCliente(Cliente cliente);  => ClienteRepository.SalvarCliente(cliente);
             return View();
@@ -106,11 +106,9 @@ namespace ImaginationStore.Presentation.Controllers
             {
                 return View();
             }
-<<<<<<< HEAD
+
         }
 
-=======
-        }  
->>>>>>> 11ea52c82ea9f04dd57a89017dc6bfbbac697085
+
     }
 }

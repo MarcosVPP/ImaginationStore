@@ -15,20 +15,17 @@
                     <td>
                         <label for="codigo">Código: </label>
                     </td>
-<<<<<<< HEAD
-                    <td align="left">
+
+                    <td class="col-75" align="left">
                         @model ImaginationStore.Domain.Entities.Cliente
                         @using (Html.BeginForm())
                         {
 
-                        <label>Codigo:</label> @Html.TextBox("CodigoCliente", "Codigo", "Seu codigo", new { maxlength = 5, type = "numeral" })
+                            <label>Codigo:</label> @Html.TextBox("CodigoCliente", "Codigo", "Seu codigo", new { maxlength = 5, type = "numeral" } => Cliente.nome)
 
-                        <button type="submit">Enviar</button>
+                            <button type="submit">Enviar</button>
                         }
-=======
-                    <td class="col-75" align="left">
-                        @Html.TextBox("CodigoCliente", "", new { maxlength = 5, type = "numeral", method = "get" })
->>>>>>> 11ea52c82ea9f04dd57a89017dc6bfbbac697085
+
                     </td>
                 </tr>
                 <tr>
