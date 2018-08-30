@@ -1,36 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using ImaginationStore.Domain.Entities;
 using ImaginationStore.Service.Service;
-using ImaginationStore.Domain.Entities;
+using System.Web.Mvc;
 
 namespace ImaginationStore.Presentation.Controllers
 
 {
     public class ClienteController : Controller
     {
-        public ActionResult Index(/*ClienteService salvarcliente*/)
+        public ActionResult Index()
         {
             return View();
         }
 
 
         // GET: Cliente
-        [HttpPost]
-<<<<<<< HEAD
         public ActionResult Get(Cliente cliente)
-
-=======
-        public ActionResult Get(/*ClienteService salvarcliente*/)
->>>>>>> 9bf0e8d14de279917d8914df42525cb2d8c23e36
         {
-            cliente = (new ClienteService()).Get(cliente.Codigo);
+            cliente = new ClienteService().Get(cliente.Codigo);
 
-            //object test;
-            //Tentando chamar o metodo para salvar cliente
-            //ClienteService.SalvarCliente(Cliente cliente);  => ClienteRepository.SalvarCliente(cliente);
             return View("Index", cliente);
         }
 
@@ -113,11 +100,7 @@ namespace ImaginationStore.Presentation.Controllers
             {
                 return View();
             }
-<<<<<<< HEAD
-
-=======
-        }
->>>>>>> 9bf0e8d14de279917d8914df42525cb2d8c23e36
         }
     }
+}
 

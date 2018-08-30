@@ -11,28 +11,18 @@
         <fieldset>
             <legend>Informações Pessoais</legend>
             <table cellspacing="10">
-                <tr>
-                    <td>
-                        <label for="codigo">Código: </label>
-                    </td>
-
+                <tr>                  
                     <td class="col-75" align="left">
-                        @using (Html.BeginForm("Get","Cliente", FormMethod.Post))
-                        {
-<<<<<<< HEAD
-
-                            <label>Codigo:</label> 
-                            @Html.TextBoxFor(model => model.Codigo, "Codigo", new { maxlength = 5, type = "numeral", placeholder = "Seu Codigo" })
+                        @using (Html.BeginForm("Get", "Cliente", FormMethod.Post))
+                        {               
+                            <label>Codigo:</label>
+                            @Html.TextBoxFor(model => model.Codigo, "Codigos", new { maxlength = 5, type = "numeral", placeholder = "Seu código...", style = "border-color:blue" })
 
                             <button>Enviar</button>
-=======
-                            @Html.TextBox("Codigo", "", new { maxlength = 5, type = "numeral", placeholder = "Seu código...", style = "border-color:blue" })
-                            <button type="submit">Enviar</button>
->>>>>>> 9bf0e8d14de279917d8914df42525cb2d8c23e36
-                        }
+                            }
 
-                    </td>
-                </tr>
+                        </td>
+                    </tr>
                 <tr>
                     <td>
                         <label for="nome">Nome: </label>
@@ -46,15 +36,9 @@
                         <label for="tefefone">Telefone: </label>
                     </td>
                     <td class="col-75" align="left">
-                        <input name="telefone" type="tel" id="telefone" maxlength="15" style="border-color:black"
-                               placeholder="ex.:(DDD) 1234-5678"
-                               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-<<<<<<< HEAD
-                                />
-=======
-                               required />
+
                         @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", style = "border-color:blue" })
->>>>>>> 9bf0e8d14de279917d8914df42525cb2d8c23e36
+
                     </td>
                 </tr>
                 <tr>
@@ -88,7 +72,7 @@
             </table>
         </fieldset>
     <br />
-    <form method="get" action=".">
+
         <!-- ENDEREÇO -->
         <table cellspacing="10">
             <tr>
@@ -139,8 +123,6 @@
             </tr>
         </table>
         <br />
-
-    </form>
     <br />
 </div>
 

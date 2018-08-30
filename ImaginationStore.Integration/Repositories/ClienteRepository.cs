@@ -22,11 +22,11 @@ namespace ImaginationStore.Integration.Repositories
             }
         }
 
-        public static Cliente BuscaClientePorCodigo(int id)
+        public static Cliente BuscaClientePorCodigo(int Codigo)
         {
             using (ISession session = NHibernateHelper.AbreSession())
             {
-                return session.Get<Cliente>(id);
+                return session.Get<Cliente>(Codigo);
             }
         }
 
