@@ -3,9 +3,7 @@
     ViewBag.Title = "Index";
 }
 
-<h5>
-    Cliente
-</h5>
+
 <div class="p-3 bg-white">
     <form method="post">
         <!--CADASTRAR CLIENTE-->
@@ -73,15 +71,13 @@
     <br />
     <form method="get" action=".">
         <!-- ENDEREÇO -->
-        <fieldset>
-            <legend>Dados de Endereço</legend>
             <table cellspacing="10">
                 <tr>
                     <td>
-                        <label for="cep">Cep: </label>
+                       
                     </td>
                     <td align="left">
-                        @Html.TextBox("cep", Convert.ToInt32(Console.ReadLine()))
+                        Cep: @Html.TextBox("Cep", "CEP", new { maxlength = 8, type = "int" })
                     </td>
                 </tr>
                 <tr>
@@ -89,7 +85,6 @@
                         <label for="rua">Rua:</label>
                     </td>
                     <td align="left">
-                        @Html.TextBox("")
                         <input name="rua" type="text" id="rua">
                     </td>
                     <td>
@@ -126,10 +121,7 @@
                 <tr>
             </table>
             <br />
-        </fieldset>
 
-
-        </fieldset>
     </form>
     <br />
 </div>
