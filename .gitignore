@@ -8,3 +8,4 @@ Exemplos_ASPNETCore2.0/
 *.config
 
 .vs/ImaginationStore/v15/Server/sqlite3/storage.ide-shm
+.vs/ImaginationStore/v15/Server/sqlite3/storage.ide-wal
