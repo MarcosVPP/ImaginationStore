@@ -12,13 +12,19 @@
             <legend>Informações Pessoais</legend>
             <table cellspacing="10">
                 <tr>
+                    <td>
+                        <label for="codigo">Código: </label>
+                    </td>
                     <td align="left">
-                            Codigo: @Html.TextBox("CodigoCliente", "", new {maxlength = 5, type = "numeral"})
+                        <input name="codigo" type="text" id="codigo" maxlength="5" disabled>
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        <label for="nome">Nome: </label>
+                    </td>
                     <td align="left">
-                        Nome: @Html.TextBox("NomeCliente", "", new { maxlength = 50, type = "text"})
+                        <input name="nome" type="text" id="nome">
                     </td>
                 </tr>
                 <tr>
@@ -26,7 +32,7 @@
                         <label for="tefefone">Telefone: </label>
                     </td>
                     <td align="left">
-                        <input name="telefone" type="tel" id="telefone"
+                        <input name="telefone" type="tel" id="telefone" maxlength="15"
                                placeholder="ex.:(DDD) 1234-5678"
                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                                required />
@@ -72,7 +78,7 @@
                        <label for="cep">Cep: </label>
                     </td>
                     <td align="left">
-                        <input name="cep" type="text" id="cep">
+                        <input name="cep" type="text" id="cep" maxlength="8">
                     </td>
                 </tr>
                 <tr>
