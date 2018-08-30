@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using ImaginationStore.Integration.Repositories;
+using ImaginationStore.Service.Service;
 
 namespace ImaginationStore.Presentation.Controllers
 {
     public class ClienteController : Controller
     {
         // GET: Cliente
-        public ActionResult Index()
+        public ActionResult Index(ClienteService.))
         {
             return View();
         }
@@ -94,11 +94,13 @@ namespace ImaginationStore.Presentation.Controllers
             {
                 return View();
             }
-        }
-        public class ClienteRepository
-        {
-            string ClienteNome;
-        }
+        }  
+
+    public var salvacliente()
+    {
+
+
+    }
 
     }
 }

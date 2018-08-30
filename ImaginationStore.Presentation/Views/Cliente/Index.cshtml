@@ -14,9 +14,10 @@
                 <tr>
                     <td align="left">
 
+                        
+                        Codigo: @Html.TextBox("CodigoCliente", "Codigo", new { maxlength = 5, type = "numeral", method="get" })
 
-                        Codigo: @Html.TextBox("CodigoCliente", "Codigo", new { maxlength = 5, type = "numeral" })
-                        @ClienteRepository.ClienteNome= CodigoCliente.value();
+                        
 
 
                     </td>
