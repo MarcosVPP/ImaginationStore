@@ -20,7 +20,7 @@
                         @model ImaginationStore.Domain.Entities.Cliente
                         @using (Html.BeginForm())
                         {
-                            @Html.TextBox("CodigoCliente", "", new { maxlength = 5, type = "numeral", placeholder = "Seu código..."})
+                            @Html.TextBox("Codigo", "", new { maxlength = 5, type = "numeral", placeholder = "Seu código...", style = "border-color:blue" })
                             <button type="submit">Enviar</button>
                         }
 
@@ -31,7 +31,7 @@
                         <label for="nome">Nome: </label>
                     </td>
                     <td class="col-75" align="left">
-                        <input name="nome" type="text" id="nome" placeholder="Seu nome..." style="border-color:rebeccapurple">
+                        @Html.TextBox("Nome", "", new { type = "text", placeholder = "Seu nome...", style = "border-color:black" })
                     </td>
                 </tr>
                 <tr>
@@ -43,6 +43,7 @@
                                placeholder="ex.:(DDD) 1234-5678"
                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                                required />
+                        @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", style = "border-color:blue" })
                     </td>
                 </tr>
                 <tr>
