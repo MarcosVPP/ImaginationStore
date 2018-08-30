@@ -12,10 +12,10 @@
             <table cellspacing="10">
                 <tr>
                     <td>
-
-                        Codigo: @Html.TextBox("CodigoCliente", "1", new { maxlength = 50, type = "text" })
-
-                        <label for="codigo" name="codigo">Código: </label>
+                        <label for="codigo">Código: </label>
+                    </td>
+                    <td align="left">
+                        <input name="codigo" type="text" id="codigo">
                     </td>
                 </tr>
                 <tr>
@@ -23,7 +23,7 @@
                         <label for="nome">Nome: </label>
                     </td>
                     <td align="left">
-                        <input type="text" name="nome">
+                        <input name="nome" type="text" id="nome">
                     </td>
                 </tr>
                 <tr>
@@ -31,7 +31,7 @@
                         <label for="tefefone">Telefone: </label>
                     </td>
                     <td align="left">
-                        <input type="text" name="telefone"
+                        <input name="telefone" type="tel" id="telefone"
                                placeholder="ex.:(DDD) 1234-5678"
                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                                required />
@@ -42,7 +42,7 @@
                         <label for="filiacao">Filiação: </label>
                     </td>
                     <td align="left">
-                        <input type="text" name="filiacao">
+                        <input name="filiacao" type="text" id="filiacao">
                     </td>
                 </tr>
                 <tr>
@@ -62,7 +62,7 @@
                         <label for="limiteCredito">Limite de Crédito: </label>
                     </td>
                     <td align="left">
-                        <input type="text" name="limiteCredito">
+                        <input name="limiteCredito" type="text" id="limiteCredito">
                     </td>
                 </tr>
             </table>
@@ -74,10 +74,10 @@
             <table cellspacing="10">
                 <tr>
                     <td>
-                       
+                       <label for="cep">Cep: </label>
                     </td>
                     <td align="left">
-                        Cep: @Html.TextBox("Cep", "CEP", new { maxlength = 8, type = "int" })
+                        <input name="cep" type="text" id="cep">
                     </td>
                 </tr>
                 <tr>
@@ -119,6 +119,10 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        <button name="cadastrar" type="button" id="cadastrar"></button>
+                    </td>
+                </tr>
             </table>
             <br />
 
