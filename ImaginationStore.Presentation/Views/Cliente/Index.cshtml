@@ -16,7 +16,7 @@
                         <label for="codigo">Código: </label>
                     </td>
                     <td class="col-75" align="left">
-                        @Html.TextBox("CodigoCliente", "", new { maxlength = 5, type = "numeral", method = "get" })
+                        @Html.TextBox("Codigoe", "", new { maxlength = 5, type = "numeral", method = "get", style = "border-color:blue", disabled = ""})
                     </td>
                 </tr>
                 <tr>
@@ -24,7 +24,7 @@
                         <label for="nome">Nome: </label>
                     </td>
                     <td class="col-75" align="left">
-                        <input name="nome" type="text" id="nome" placeholder="Seu nome..." style="border-color:rebeccapurple">
+                        @Html.TextBox("Nome", "", new {type = "text", method = "get", style = "border-color:black", placeholder = "Seu nome..." })
                     </td>
                 </tr>
                 <tr>
@@ -32,10 +32,8 @@
                         <label for="tefefone">Telefone: </label>
                     </td>
                     <td class="col-75" align="left">
-                        <input name="telefone" type="tel" id="telefone" maxlength="15" style="border-color:black"
-                               placeholder="ex.:(DDD) 1234-5678"
-                               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                               required />
+                        @Html.TextBox("Telefone", "", new { type = "tel", method = "get", style = "border-color:blue", placeholder = "ex.:(DDD) 1234-5678",
+                       pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}", required = "" })
                     </td>
                 </tr>
                 <tr>
@@ -43,7 +41,7 @@
                         <label for="filiacao">Filiação: </label>
                     </td>
                     <td class="col-75" align="left">
-                        <input name="filiacao" type="text" id="filiacao" placeholder="Sua filiação..." style="border-color:rebeccapurple">
+                        @Html.TextBox("Filiação", "", new {type = "text", method = "get", style = "border-color:black", placeholder = "Sua filiação..." })
                     </td>
                 </tr>
                 <tr>
@@ -51,7 +49,7 @@
                         <label for="limiteCredito">Limite de Crédito: </label>
                     </td>
                     <td class="col-75" align="left">
-                        <input name="limiteCredito" type="number" id="limiteCredito" placeholder="ex.:500.0" style="border-color:black">
+                        @Html.TextBox("limiteCredito", "", new { type = "double", method = "get", style = "border-color:blue", placeholder = "ex.:500" })
                     </td>
                 </tr>
                 <tr>
@@ -59,7 +57,7 @@
                         <label for="status">Status do Cliente: </label>
                     </td>
                     <td class="col-75" align="left">
-                        <select>
+                        <select style="border-color:black">
                             <option value="1">BOM</option>
                             <option value="2">MÉDIO</option>
                             <option value="3">RUIM</option>
@@ -78,7 +76,7 @@
                     <label for="cep">Cep: </label>
                 </td>
                 <td class="col-75" align="left">
-                    <input name="cep" type="text" id="cep" maxlength="8" placeholder="12345678">
+                    @Html.TextBox("cep", "", new { type = "int", method = "get", style = "border-color:black", placeholder = "ex.:12345678" })
                 </td>
             </tr>
             <tr>
@@ -86,13 +84,13 @@
                     <label for="rua">Rua/Av:</label>
                 </td>
                 <td class="col-75" align="left">
-                    <input name="rua" type="text" id="rua">
+                    @Html.TextBox("rua", "", new {type = "text", method = "get", style = "border-color:blue" })
                 </td>
                 <td>
                     <label for="numero">Numero:</label>
                 </td>
                 <td class="col-75" align="left">
-                    <input name="numero" type="text" id="numero" size="4" maxlength="5">
+                    @Html.TextBox("numero", "", new { type = "int", method = "get", style = "border-color:blue", size = "4", maxlength = "5" })
                 </td>
             </tr>
             <tr>
@@ -100,7 +98,7 @@
                     <label for="bairro">Bairro: </label>
                 </td>
                 <td class="col-75" align="left">
-                    <input name="bairro" type="text" id="bairro">
+                    @Html.TextBox("bairro", "", new { type = "text", method = "get", style = "border-color:black" })
                 </td>
             </tr>
             <tr>
@@ -108,7 +106,7 @@
                     <label for="cidade">Cidade: </label>
                 </td>
                 <td class="col-75" align="left">
-                    <input name="cidade" type="text" id="cidade">
+                    @Html.TextBox("cidade", "", new { type = "text", method = "get", style = "border-color:blue" })
                 </td>
             </tr>
             <tr>
@@ -116,7 +114,7 @@
                     <label for="estado">Estado: </label>
                 </td>
                 <td class="col-75" align="left">
-                    <input name="uf" type="text" id="uf" size="1" maxlength="2" /><br />
+                    @Html.TextBox("uf", "", new { type = "text", method = "get", style = "border-color:black", size = "1", maxlength = "2" })
                 </td>
             </tr>
         </table>
