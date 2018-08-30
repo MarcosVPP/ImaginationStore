@@ -20,9 +20,7 @@
                         @model ImaginationStore.Domain.Entities.Cliente
                         @using (Html.BeginForm())
                         {
-
-                            <label>Codigo:</label> @Html.TextBox("CodigoCliente", "Codigo", "Seu codigo", new { maxlength = 5, type = "numeral" } => Cliente.nome)
-
+                            @Html.TextBox("CodigoCliente", "", new { maxlength = 5, type = "numeral", placeholder = "Seu código..."})
                             <button type="submit">Enviar</button>
                         }
 
