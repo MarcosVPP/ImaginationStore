@@ -4,14 +4,26 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using ImaginationStore.Service.Service;
+using ImaginationStore.Domain.Entities;
 
 namespace ImaginationStore.Presentation.Controllers
+
 {
     public class ClienteController : Controller
     {
+
+
         // GET: Cliente
+<<<<<<< HEAD
+        [HttpPost]
+        public ActionResult Index(/*ClienteService salvarcliente*/)
+=======
         public ActionResult Index()
+>>>>>>> 11ea52c82ea9f04dd57a89017dc6bfbbac697085
         {
+            object test;
+            //Tentando chamar o metodo para salvar cliente
+            //ClienteService.SalvarCliente(Cliente cliente);  => ClienteRepository.SalvarCliente(cliente);
             return View();
         }
 
@@ -94,6 +106,11 @@ namespace ImaginationStore.Presentation.Controllers
             {
                 return View();
             }
+<<<<<<< HEAD
+        }
+
+=======
         }  
+>>>>>>> 11ea52c82ea9f04dd57a89017dc6bfbbac697085
     }
 }
