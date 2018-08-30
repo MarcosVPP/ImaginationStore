@@ -1,6 +1,7 @@
 ﻿
 @{
     ViewBag.Title = "Index";
+
 }
 
 
@@ -11,19 +12,22 @@
             <legend>Informações Pessoais</legend>
             <table cellspacing="10">
                 <tr>
-                    <td>
+                    <td align="left">
+                       
 
-                        Codigo: @Html.TextBox("CodigoCliente", "1", new { maxlength = 50, type = "text" })
+                            Codigo: @Html.TextBox("CodigoCliente", "Codigo", new {maxlength = 5,type = "numeral"})
 
-                        <label for="codigo" name="codigo">Código: </label>
+
+                       
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label for="nome">Nome: </label>
+                        
                     </td>
                     <td align="left">
-                        <input type="text" name="nome">
+                        Nome: @Html.TextBox("NomeCliente", "Seu nome", new { maxlength = 50, type = "text"})
+
                     </td>
                 </tr>
                 <tr>
