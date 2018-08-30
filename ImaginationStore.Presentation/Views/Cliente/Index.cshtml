@@ -11,6 +11,7 @@
         <fieldset>
             <legend>Informações Pessoais</legend>
             <table cellspacing="10">
+<<<<<<< HEAD
                 <tr>                  
                     <td class="col-75" align="left">
                         @using (Html.BeginForm("Get", "Cliente", FormMethod.Post))
@@ -23,6 +24,20 @@
 
                         </td>
                     </tr>
+=======
+                <tr>
+                    <td>
+                        <label for="codigo">Código: </label>
+                    </td>
+                    <td class="col-75" align="left" style="padding-left:inherit">
+                        @using (Html.BeginForm("Get","Cliente", FormMethod.Post))
+                        {
+                            @Html.TextBoxFor(model => model.Codigo, "Codigo", new { maxlength = 5, type = "numeral", placeholder = "Seu código...", style = "border-color:blue" })
+                            <button type="submit">Enviar</button>
+                        }
+                    </td>
+                </tr>
+>>>>>>> 4c4ad41c66a519b3c06883b29db4ffd1001b289a
                 <tr>
                     <td>
                         <label for="nome">Nome: </label>
@@ -36,9 +51,13 @@
                         <label for="tefefone">Telefone: </label>
                     </td>
                     <td class="col-75" align="left">
+<<<<<<< HEAD
 
                         @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", style = "border-color:blue" })
 
+=======
+                        @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}", style = "border-color:blue" })
+>>>>>>> 4c4ad41c66a519b3c06883b29db4ffd1001b289a
                     </td>
                 </tr>
                 <tr>
@@ -46,7 +65,7 @@
                         <label for="filiacao">Filiação: </label>
                     </td>
                     <td class="col-75" align="left">
-                        <input name="filiacao" type="text" id="filiacao" placeholder="Sua filiação..." style="border-color:rebeccapurple">
+                        @Html.TextBox("Filiação", "", new { type = "text", placeholder = "Sua filiação...", style = "border-color:black" })
                     </td>
                 </tr>
                 <tr>
@@ -54,7 +73,7 @@
                         <label for="limiteCredito">Limite de Crédito: </label>
                     </td>
                     <td class="col-75" align="left">
-                        <input name="limiteCredito" type="number" id="limiteCredito" placeholder="ex.:500.0" style="border-color:black">
+                        @Html.TextBox("limiteCredito", "", new { type = "text", placeholder = "ex.:500.0", style = "border-color:blue" })
                     </td>
                 </tr>
                 <tr>
@@ -62,10 +81,10 @@
                         <label for="status">Status do Cliente: </label>
                     </td>
                     <td class="col-75" align="left">
-                        <select>
-                            <option value="1">BOM</option>
-                            <option value="2">MÉDIO</option>
-                            <option value="3">RUIM</option>
+                        <select style="border-color:black">
+                            <option value="1" style="border-color:forestgreen">BOM</option>
+                            <option value="2" style="border-color:yellow">MÉDIO</option>
+                            <option value="3" style="border-color:red">RUIM</option>
                         </select>
                     </td>
                 </tr>
@@ -74,54 +93,58 @@
     <br />
 
         <!-- ENDEREÇO -->
-        <table cellspacing="10">
-            <tr>
-                <td>
-                    <label for="cep">Cep: </label>
-                </td>
-                <td class="col-75" align="left">
-                    <input name="cep" type="text" id="cep" maxlength="8" placeholder="12345678">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="rua">Rua/Av:</label>
-                </td>
-                <td class="col-75" align="left">
-                    <input name="rua" type="text" id="rua">
-                </td>
-                <td>
-                    <label for="numero">Numero:</label>
-                </td>
-                <td class="col-75" align="left">
-                    <input name="numero" type="text" id="numero" size="4" maxlength="5">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="bairro">Bairro: </label>
-                </td>
-                <td class="col-75" align="left">
-                    <input name="bairro" type="text" id="bairro">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="cidade">Cidade: </label>
-                </td>
-                <td class="col-75" align="left">
-                    <input name="cidade" type="text" id="cidade">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="estado">Estado: </label>
-                </td>
-                <td class="col-75" align="left">
-                    <input name="uf" type="text" id="uf" size="1" maxlength="2" /><br />
-                </td>
-            </tr>
-        </table>
+        <fieldset>
+            <legend>Endereço</legend>
+            <table cellspacing="10">
+                <tr>
+                    <td>
+                        <label for="cep">Cep: </label>
+                    </td>
+                    <td class="col-75" align="left" style="padding-left:inherit">
+                        @Html.TextBox("cep", "", new { type = "numeral", placeholder = "12345678", style = "border-color:black", maxlength = "8" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="rua">Rua/Av:</label>
+                    </td>
+                    <td class="col-75" align="left">
+                        @Html.TextBox("rua", "", new { type = "text", style = "border-color:blue"})
+                    </td>
+                    <td>
+                        <label for="numero">Número:</label>
+                    </td>
+                    <td class="col-75" align="left">
+                        @Html.TextBox("numero", "", new { type = "numeral", placeholder = "12345", style = "border-color:blue", size = "4", maxlenght = "5" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bairro">Bairro: </label>
+                    </td>
+                    <td class="col-75" align="left">
+                        @Html.TextBox("bairro", "", new { type = "text", style = "border-color:black" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cidade">Cidade: </label>
+                    </td>
+                    <td class="col-75" align="left">
+                        @Html.TextBox("cidade", "", new { type = "text", style = "border-color:blue" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="estado">Estado: </label>
+                    </td>
+                    <td class="col-75" align="left">
+                        @Html.TextBox("uf", "", new { type = "char(2)", style = "border-color:black", size = "1", maxlenght = "2" })
+                        <br />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
         <br />
     <br />
 </div>
