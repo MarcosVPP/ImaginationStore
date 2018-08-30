@@ -5,3 +5,6 @@ ImaginationStore.Presentation/obj.rar
 
 .vs/ImaginationStore/ImaginationStore.Presentation/obj
 Exemplos_ASPNETCore2.0/
+*.config
+
+.vs/ImaginationStore/v15/Server/sqlite3/storage.ide-shm
