@@ -97,12 +97,7 @@ namespace ImaginationStore.Presentation.Controllers
         }
         public class ClienteRepository
         {
-            //public salvacliente(CodigoCliente, NomeCliente);
-            //{
-            //ClienteRepository.SalvarCliente(CodigoCliente, NomeCliente);
-            //    return null;
-            // }
-
+            string ClienteNome;
         }
 
     }

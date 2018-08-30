@@ -13,12 +13,12 @@
             <table cellspacing="10">
                 <tr>
                     <td align="left">
-                       
-
-                            Codigo: @Html.TextBox("CodigoCliente", "Codigo", new {maxlength = 5,type = "numeral"})
 
 
-                       
+                        Codigo: @Html.TextBox("CodigoCliente", "Codigo", new { maxlength = 5, type = "numeral" })
+                        @ClienteRepository.ClienteNome= CodigoCliente.value();
+
+
                     </td>
                 </tr>
                 <tr>
