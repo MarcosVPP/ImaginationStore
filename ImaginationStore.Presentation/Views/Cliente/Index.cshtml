@@ -15,25 +15,24 @@
                     <td>
                         <label for="codigo">Código: </label>
                     </td>
-                    <td align="left">
-                        Codigo: @Html.TextBox("CodigoCliente", "Codigo", new { maxlength = 5, type = "numeral", method="get" })
-                        <input name="codigo" type="text" id="codigo" maxlength="5" disabled>
+                    <td class="col-75" align="left">
+                        @Html.TextBox("CodigoCliente", "", new { maxlength = 5, type = "numeral", method = "get" })
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <label for="nome">Nome: </label>
                     </td>
-                    <td align="left">
-                        <input name="nome" type="text" id="nome">
+                    <td class="col-75" align="left">
+                        <input name="nome" type="text" id="nome" placeholder="Seu nome..." style="border-color:rebeccapurple">
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <label for="tefefone">Telefone: </label>
                     </td>
-                    <td align="left">
-                        <input name="telefone" type="tel" id="telefone" maxlength="15"
+                    <td class="col-75" align="left">
+                        <input name="telefone" type="tel" id="telefone" maxlength="15" style="border-color:black"
                                placeholder="ex.:(DDD) 1234-5678"
                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                                required />
@@ -43,28 +42,28 @@
                     <td>
                         <label for="filiacao">Filiação: </label>
                     </td>
-                    <td align="left">
-                        <input name="filiacao" type="text" id="filiacao">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="status">Status do Cliente: </label>
-                    </td>
-                    <td align="left">
-                        <select>
-                            <option value="1">BOM</option>
-                            <option value="2">MÉDIO</option>
-                            <option value="3">RUIM</option>
-                        </select>
+                    <td class="col-75" align="left">
+                        <input name="filiacao" type="text" id="filiacao" placeholder="Sua filiação..." style="border-color:rebeccapurple">
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <label for="limiteCredito">Limite de Crédito: </label>
                     </td>
-                    <td align="left">
-                        <input name="limiteCredito" type="text" id="limiteCredito">
+                    <td class="col-75" align="left">
+                        <input name="limiteCredito" type="number" id="limiteCredito" placeholder="ex.:500.0" style="border-color:black">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="status">Status do Cliente: </label>
+                    </td>
+                    <td class="col-75" align="left">
+                        <select>
+                            <option value="1">BOM</option>
+                            <option value="2">MÉDIO</option>
+                            <option value="3">RUIM</option>
+                        </select>
                     </td>
                 </tr>
             </table>
@@ -78,21 +77,21 @@
                 <td>
                     <label for="cep">Cep: </label>
                 </td>
-                <td align="left">
-                    <input name="cep" type="text" id="cep" maxlength="8">
+                <td class="col-75" align="left">
+                    <input name="cep" type="text" id="cep" maxlength="8" placeholder="12345678">
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label for="rua">Rua:</label>
+                    <label for="rua">Rua/Av:</label>
                 </td>
-                <td align="left">
+                <td class="col-75" align="left">
                     <input name="rua" type="text" id="rua">
                 </td>
                 <td>
                     <label for="numero">Numero:</label>
                 </td>
-                <td align="left">
+                <td class="col-75" align="left">
                     <input name="numero" type="text" id="numero" size="4" maxlength="5">
                 </td>
             </tr>
@@ -100,7 +99,7 @@
                 <td>
                     <label for="bairro">Bairro: </label>
                 </td>
-                <td align="left">
+                <td class="col-75" align="left">
                     <input name="bairro" type="text" id="bairro">
                 </td>
             </tr>
@@ -108,7 +107,7 @@
                 <td>
                     <label for="cidade">Cidade: </label>
                 </td>
-                <td align="left">
+                <td class="col-75" align="left">
                     <input name="cidade" type="text" id="cidade">
                 </td>
             </tr>
@@ -116,7 +115,7 @@
                 <td>
                     <label for="estado">Estado: </label>
                 </td>
-                <td align="left">
+                <td class="col-75" align="left">
                     <input name="uf" type="text" id="uf" size="1" maxlength="2" /><br />
                 </td>
             </tr>
@@ -128,7 +127,6 @@
 </div>
 
 @section Scripts {
-
     <script type="text/javascript">
         $(document).ready(function () {
 
