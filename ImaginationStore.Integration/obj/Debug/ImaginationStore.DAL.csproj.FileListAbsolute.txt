@@ -40,3 +40,6 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Integration
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Integration\obj\Debug\ImaginationStore.DAL.csproj.CopyComplete
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Integration\obj\Debug\ImaginationStore.Integration.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Integration\obj\Debug\ImaginationStore.Integration.pdb
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Integration\bin\Debug\nunit.framework.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Integration\bin\Debug\nunit.framework.pdb
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Integration\bin\Debug\nunit.framework.xml
