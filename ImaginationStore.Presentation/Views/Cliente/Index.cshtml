@@ -58,12 +58,16 @@
                     <td>
                         <label for="status">Status do Cliente: </label>
                     </td>
-                    <td class="col-75" align="left">
-                        <select style="border-color:black">
-                            <option value="1" style="border-color:forestgreen">BOM</option>
-                            <option value="2" style="border-color:yellow">MÉDIO</option>
-                            <option value="3" style="border-color:red">RUIM</option>
-                        </select>
+                    <td class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-outline-success">
+                            <input type="radio" name="bom" id="1" autocomplete="off"> BOM
+                        </label>
+                        <label class="btn btn-outline-warning">
+                            <input type="radio" name="medio" id="2" autocomplete="off"> MÉDIO
+                        </label>
+                        <label class="btn btn-outline-danger">
+                            <input type="radio" name="ruim" id="3" autocomplete="off"> RUIM
+                        </label>
                     </td>
                 </tr>
             </table>
