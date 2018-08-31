@@ -66,48 +66,36 @@
             <legend>Endereço</legend>
             <table cellspacing="10">
                 <tr>
-                    <td>
-                        <label for="cep">Cep: </label>
-                    </td>
-                    <td class="col-75" align="left" style="padding-left:inherit">
+                    <td class="col-75" align="left">
+                        @Html.Label("Cep: ")
                         @Html.TextBox("cep", "", new { type = "numeral", placeholder = "12345678", style = "border-color:black", maxlength = "8" })
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <label for="rua">Rua/Av:</label>
+                    <td class="col-75" align="left">
+                        @Html.Label("Rua: ")
+                        @Html.TextBox("rua", "", new { type = "text", style = "border-color:blue" })
                     </td>
                     <td class="col-75" align="left">
-                        @Html.TextBox("rua", "", new { type = "text", style = "border-color:blue"})
-                    </td>
-                    <td>
-                        <label for="numero">Número:</label>
-                    </td>
-                    <td class="col-75" align="left">
+                        @Html.Label("Número: ")
                         @Html.TextBox("numero", "", new { type = "numeral", placeholder = "12345", style = "border-color:blue", size = "4", maxlenght = "5" })
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <label for="bairro">Bairro: </label>
-                    </td>
                     <td class="col-75" align="left">
+                        @Html.Label("Bairro: ")
                         @Html.TextBox("bairro", "", new { type = "text", style = "border-color:black" })
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <label for="cidade">Cidade: </label>
-                    </td>
                     <td class="col-75" align="left">
+                        @Html.Label("Cidade: ")
                         @Html.TextBox("cidade", "", new { type = "text", style = "border-color:blue" })
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <label for="estado">Estado: </label>
-                    </td>
                     <td class="col-75" align="left">
+                        @Html.Label("UF: ")
                         @Html.TextBox("uf", "", new { type = "char(2)", style = "border-color:black", size = "1", maxlenght = "2" })
                         <br />
                     </td>
