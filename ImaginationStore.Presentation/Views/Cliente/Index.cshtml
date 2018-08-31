@@ -4,30 +4,23 @@
     ViewBag.Title = "Index";
 
 }
-<div class="p-3 bg-white">
+@using (Html.BeginForm("Get", "Cliente", FormMethod.Post))
+{
+    <div class="p-3 bg-white">
         <!--CADASTRAR CLIENTE-->
         <fieldset>
             <legend>Informações Pessoais</legend>
+
             <table cellspacing="10">
-<<<<<<< HEAD
-                 <tr>
-                    <td>
-                        <label for="codigo">Código: </label>
-                    </td>
-                    <td class="col-75" align="left" style="padding-left:inherit">
-                        @using (Html.BeginForm("Create", "Cliente", FormMethod.Post))
-=======
                 <tr>
                     <td>
                         <label for="codigo">Código: </label>
                     </td>
                     <td class="col-75" align="left">
-                        @using (Html.BeginForm("Get", "Cliente", FormMethod.Post))
->>>>>>> 691752a2b56cc5bdd55b55f145a8f78ecb2ca045
-                        {
-                            @Html.TextBoxFor(model => model.Codigo, "Codigos", new { maxlength = 5, type = "numeral", placeholder = "Seu código...", style = "border-color:blue" })
-                            <button>Enviar</button>
-                        }
+
+                        @Html.TextBoxFor(model => model.Codigo, "Codigos", new { maxlength = 5, type = "numeral", placeholder = "Seu código...", style = "border-color:blue" })
+                        <button>Enviar</button>
+
 
                     </td>
                 </tr>
@@ -36,7 +29,7 @@
                         <label for="nome">Nome: </label>
                     </td>
                     <td class="col-75" align="left">
-                        @Html.TextBox("Nome", "", new { type = "text", placeholder = "Seu nome...", style = "border-color:black" })
+                        @Html.TextBoxFor(model => model.Nome, "Nome", new { type = "text", placeholder = "Seu nome...", style = "border-color:black" })
                     </td>
                 </tr>
                 <tr>
@@ -44,13 +37,7 @@
                         <label for="telefone">Telefone: </label>
                     </td>
                     <td class="col-75" align="left">
-<<<<<<< HEAD
-
-                        @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}", style = "border-color:blue" })
-
-=======
-                        @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", style = "border-color:blue" })
->>>>>>> 691752a2b56cc5bdd55b55f145a8f78ecb2ca045
+                        @Html.TextBoxFor(model => model.Telefone, "Telefone", new { maxlength = 15, type = "numeral", placeholder = "ex.:(DDD) 1234-5678", pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}", style = "border-color:blue" })
                     </td>
                 </tr>
                 <tr>
@@ -58,7 +45,7 @@
                         <label for="filiacao">Filiação: </label>
                     </td>
                     <td class="col-75" align="left">
-                        @Html.TextBox("Filiação", "", new { type = "text", placeholder = "Sua filiação...", style = "border-color:black" })
+                        @Html.TextBoxFor(model => model.Filiacao, "Filiação", new { type = "text", placeholder = "Sua filiação...", style = "border-color:black" })
                     </td>
                 </tr>
                 <tr>
@@ -66,7 +53,7 @@
                         <label for="limiteCredito">Limite de Crédito: </label>
                     </td>
                     <td class="col-75" align="left">
-                        @Html.TextBox("limiteCredito", "", new { type = "text", placeholder = "ex.:500.0", style = "border-color:blue" })
+                        @Html.TextBoxFor(model => model.LimiteDeCredito, "LimiteCredito", new { type = "text", placeholder = "ex.:500.0", style = "border-color:blue" })
                     </td>
                 </tr>
                 <tr>
@@ -82,11 +69,9 @@
                     </td>
                 </tr>
             </table>
-        </fieldset>
-    <br />
+            <br />
 
-        <!-- ENDEREÇO -->
-        <fieldset>
+            <!-- ENDEREÇO -->
             <legend>Endereço</legend>
             <table cellspacing="10">
                 <tr>
@@ -137,10 +122,12 @@
                     </td>
                 </tr>
             </table>
+
         </fieldset>
         <br />
-    <br />
-</div>
+        <br />
+    </div>
+}
 
 @section Scripts {
     <script type="text/javascript">

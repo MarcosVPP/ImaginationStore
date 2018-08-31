@@ -11,21 +11,7 @@ namespace ImaginationStore.Presentation.Controllers
         {
             return View();
         }
-<<<<<<< HEAD
-        
-=======
 
-
-        // GET: Cliente
-        [HttpPost]
-        public ActionResult Get(Cliente cliente)
-        {
-            cliente = new ClienteService().Get(cliente.Codigo);
-
-            return View("Index", cliente);
-        }
-
->>>>>>> 691752a2b56cc5bdd55b55f145a8f78ecb2ca045
         // GET: Cliente/Details/5
         public ActionResult Details(int id)
         {
@@ -53,7 +39,7 @@ namespace ImaginationStore.Presentation.Controllers
         {
             try
             {
-                cliente = new ClienteService().Get(cliente.Codigo);
+                cliente = new ClienteService().(cliente.Codigo, cliente.Nome, cliente.Telefone, cliente.Filiacao, cliente.LimiteDeCredito);
                 // TODO: Add insert logic here
 
                 return RedirectToAction("Index");
