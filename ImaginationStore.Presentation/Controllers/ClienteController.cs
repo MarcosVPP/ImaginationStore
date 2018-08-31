@@ -11,6 +11,9 @@ namespace ImaginationStore.Presentation.Controllers
         {
             return View();
         }
+<<<<<<< HEAD
+        
+=======
 
 
         // GET: Cliente
@@ -22,6 +25,7 @@ namespace ImaginationStore.Presentation.Controllers
             return View("Index", cliente);
         }
 
+>>>>>>> 691752a2b56cc5bdd55b55f145a8f78ecb2ca045
         // GET: Cliente/Details/5
         public ActionResult Details(int id)
         {
@@ -45,10 +49,11 @@ namespace ImaginationStore.Presentation.Controllers
 
         // POST: Cliente/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(Cliente cliente)
         {
             try
             {
+                cliente = new ClienteService().Get(cliente.Codigo);
                 // TODO: Add insert logic here
 
                 return RedirectToAction("Index");

@@ -236,3 +236,9 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\Imaginat
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.csproj.CopyComplete
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.pdb
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\nunit.framework.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\Microsoft.ApplicationInsights.xml
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\nunit.framework.pdb
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\nunit.framework.xml

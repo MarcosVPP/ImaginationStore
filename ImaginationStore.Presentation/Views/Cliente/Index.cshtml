@@ -4,19 +4,26 @@
     ViewBag.Title = "Index";
 
 }
-
-
 <div class="p-3 bg-white">
         <!--CADASTRAR CLIENTE-->
         <fieldset>
             <legend>Informações Pessoais</legend>
             <table cellspacing="10">
+<<<<<<< HEAD
+                 <tr>
+                    <td>
+                        <label for="codigo">Código: </label>
+                    </td>
+                    <td class="col-75" align="left" style="padding-left:inherit">
+                        @using (Html.BeginForm("Create", "Cliente", FormMethod.Post))
+=======
                 <tr>
                     <td>
                         <label for="codigo">Código: </label>
                     </td>
                     <td class="col-75" align="left">
                         @using (Html.BeginForm("Get", "Cliente", FormMethod.Post))
+>>>>>>> 691752a2b56cc5bdd55b55f145a8f78ecb2ca045
                         {
                             @Html.TextBoxFor(model => model.Codigo, "Codigos", new { maxlength = 5, type = "numeral", placeholder = "Seu código...", style = "border-color:blue" })
                             <button>Enviar</button>
@@ -37,7 +44,13 @@
                         <label for="telefone">Telefone: </label>
                     </td>
                     <td class="col-75" align="left">
+<<<<<<< HEAD
+
+                        @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}", style = "border-color:blue" })
+
+=======
                         @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", style = "border-color:blue" })
+>>>>>>> 691752a2b56cc5bdd55b55f145a8f78ecb2ca045
                     </td>
                 </tr>
                 <tr>
@@ -172,6 +185,7 @@
                                 $("#uf").val(dados.uf);
                                 $("#cidade").val(dados.localidade);
                             } //end if.
+
                             else {
                                 //CEP pesquisado não foi encontrado.
                                 limpa_formulário_cep();
@@ -179,12 +193,14 @@
                             }
                         });
                     } //end if.
+
                     else {
                         //cep é inválido.
                         limpa_formulário_cep();
                         alert("Formato de CEP inválido.");
                     }
                 } //end if.
+
                 else {
                     //cep sem valor, limpa formulário.
                     limpa_formulário_cep();

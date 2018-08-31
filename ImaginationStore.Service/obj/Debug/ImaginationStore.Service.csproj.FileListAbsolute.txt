@@ -38,3 +38,6 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationSt
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csproj.CopyComplete
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.pdb
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.dll
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.pdb
+C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.xml
