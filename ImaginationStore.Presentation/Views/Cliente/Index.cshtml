@@ -9,16 +9,26 @@
         <fieldset>
             <legend>Informações Pessoais</legend>
             <table cellspacing="10">
+<<<<<<< HEAD
                  <tr>
                     <td>
                         <label for="codigo">Código: </label>
                     </td>
                     <td class="col-75" align="left" style="padding-left:inherit">
                         @using (Html.BeginForm("Create", "Cliente", FormMethod.Post))
+=======
+                <tr>
+                    <td>
+                        <label for="codigo">Código: </label>
+                    </td>
+                    <td class="col-75" align="left">
+                        @using (Html.BeginForm("Get", "Cliente", FormMethod.Post))
+>>>>>>> 691752a2b56cc5bdd55b55f145a8f78ecb2ca045
                         {
-                            @Html.TextBoxFor(model => model.Codigo, "Codigo", new { maxlength = 5, type = "numeral", placeholder = "Seu código...", style = "border-color:blue" })
-                            <button type="submit">Enviar</button>
+                            @Html.TextBoxFor(model => model.Codigo, "Codigos", new { maxlength = 5, type = "numeral", placeholder = "Seu código...", style = "border-color:blue" })
+                            <button>Enviar</button>
                         }
+
                     </td>
                 </tr>
                 <tr>
@@ -31,12 +41,16 @@
                 </tr>
                 <tr>
                     <td>
-                        <label for="tefefone">Telefone: </label>
+                        <label for="telefone">Telefone: </label>
                     </td>
                     <td class="col-75" align="left">
+<<<<<<< HEAD
 
                         @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}", style = "border-color:blue" })
 
+=======
+                        @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", style = "border-color:blue" })
+>>>>>>> 691752a2b56cc5bdd55b55f145a8f78ecb2ca045
                     </td>
                 </tr>
                 <tr>
@@ -79,19 +93,19 @@
                     <td>
                         <label for="cep">Cep: </label>
                     </td>
-                    <td class="col-75" align="left" style="padding-left:inherit">
+                    <td class="col-75" align="left">
                         @Html.TextBox("cep", "", new { type = "numeral", placeholder = "12345678", style = "border-color:black", maxlength = "8" })
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label for="rua">Rua/Av:</label>
+                        <label for="rua">Rua: </label>
                     </td>
                     <td class="col-75" align="left">
-                        @Html.TextBox("rua", "", new { type = "text", style = "border-color:blue"})
+                        @Html.TextBox("rua", "", new { type = "text", style = "border-color:blue" })
                     </td>
                     <td>
-                        <label for="numero">Número:</label>
+                        <label for="numero">Número: </label>
                     </td>
                     <td class="col-75" align="left">
                         @Html.TextBox("numero", "", new { type = "numeral", placeholder = "12345", style = "border-color:blue", size = "4", maxlenght = "5" })
@@ -115,7 +129,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <label for="estado">Estado: </label>
+                        <label for="uf">UF: </label>
                     </td>
                     <td class="col-75" align="left">
                         @Html.TextBox("uf", "", new { type = "char(2)", style = "border-color:black", size = "1", maxlenght = "2" })
