@@ -16,13 +16,22 @@
                     <td>
                         <label for="codigo">Código: </label>
                     </td>
+<<<<<<< HEAD
                     <td class="col-75" align="left">
 
                         @Html.TextBoxFor(model => model.Codigo, "Codigos", new { maxlength = 5, type = "numeral", placeholder = "Seu código...", style = "border-color:blue" })
                         <button>Enviar</button>
 
+=======
+                        <td class="col-75" align="left">
+                            @using (Html.BeginForm("Get", "Cliente", FormMethod.Post))
+                            {
+                                @Html.TextBoxFor(model => model.Codigo, "Codigos", new { maxlength = 5, type = "numeral", placeholder = "Seu código...", style = "border-color:blue" })
+                                <button>Enviar</button>
+                            }
+>>>>>>> 01768eac1e8d8713a590b96628e9b45d674b6873
 
-                    </td>
+                        </td>
                 </tr>
                 <tr>
                     <td>
@@ -37,7 +46,11 @@
                         <label for="telefone">Telefone: </label>
                     </td>
                     <td class="col-75" align="left">
+<<<<<<< HEAD
                         @Html.TextBoxFor(model => model.Telefone, "Telefone", new { maxlength = 15, type = "numeral", placeholder = "ex.:(DDD) 1234-5678", pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}", style = "border-color:blue" })
+=======
+                        @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}", style = "border-color:blue" })
+>>>>>>> 01768eac1e8d8713a590b96628e9b45d674b6873
                     </td>
                 </tr>
                 <tr>
@@ -60,13 +73,18 @@
                     <td>
                         <label for="status">Status do Cliente: </label>
                     </td>
-                    <td class="col-75" align="left">
-                        <select style="border-color:black">
-                            <option value="1" style="border-color:forestgreen">BOM</option>
-                            <option value="2" style="border-color:yellow">MÉDIO</option>
-                            <option value="3" style="border-color:red">RUIM</option>
-                        </select>
+                    <td class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-outline-success">
+                            <input type="radio" name="bom" id="1" autocomplete="off"> BOM
+                        </label>
+                        <label class="btn btn-outline-warning">
+                            <input type="radio" name="medio" id="2" autocomplete="off"> MÉDIO
+                        </label>
+                        <label class="btn btn-outline-danger">
+                            <input type="radio" name="ruim" id="3" autocomplete="off"> RUIM
+                        </label>
                     </td>
+                    
                 </tr>
             </table>
             <br />

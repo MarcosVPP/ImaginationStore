@@ -242,3 +242,9 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentatio
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\Microsoft.ApplicationInsights.xml
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\nunit.framework.pdb
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Presentation\bin\nunit.framework.xml
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\nunit.framework.dll
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\Microsoft.AI.PerfCounterCollector.xml
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\Microsoft.ApplicationInsights.xml
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\nunit.framework.pdb
+F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\nunit.framework.xml

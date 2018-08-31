@@ -17,3 +17,7 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Domain\bin\
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.csproj.CopyComplete
 =======
 >>>>>>> 691752a2b56cc5bdd55b55f145a8f78ecb2ca045
+F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\bin\Debug\nunit.framework.dll
+F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\bin\Debug\nunit.framework.pdb
+F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\bin\Debug\nunit.framework.xml
+F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.csproj.CopyComplete
