@@ -14,10 +14,7 @@ namespace ImaginationStore.Presentation.Controllers
 
 
         // GET: Cliente
-<<<<<<< HEAD
-=======
         [HttpPost]
->>>>>>> 4c4ad41c66a519b3c06883b29db4ffd1001b289a
         public ActionResult Get(Cliente cliente)
         {
             cliente = new ClienteService().Get(cliente.Codigo);

@@ -9,4 +9,3 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Domain\obj\
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.csproj.CoreCompileInputs.cache
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.pdb
-F:\GitProjetos\ImaginationStore\ImaginationStore.Domain\obj\Debug\ImaginationStore.Domain.csprojAssemblyReference.cache
