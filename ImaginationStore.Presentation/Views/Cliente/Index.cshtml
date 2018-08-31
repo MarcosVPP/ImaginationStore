@@ -13,9 +13,6 @@
                     <td>
                         <label for="codigo">Código: </label>
                     </td>
-                    <td class="col-75" align="left" style="padding-left:inherit">
-                        @using (Html.BeginForm("Create", "Cliente", FormMethod.Post))
-                    </td>
                         <td class="col-75" align="left">
                             @using (Html.BeginForm("Get", "Cliente", FormMethod.Post))
                             {
@@ -24,7 +21,7 @@
                             }
 
                         </td>
-                    </tr>
+                </tr>
                 <tr>
                     <td>
                         <label for="nome">Nome: </label>
@@ -39,7 +36,6 @@
                     </td>
                     <td class="col-75" align="left">
                         @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}", style = "border-color:blue" })
-                        @Html.TextBox("Telefone", "", new { maxlength = 15, type = "tel", placeholder = "ex.:(DDD) 1234-5678", style = "border-color:blue" })
                     </td>
                 </tr>
                 <tr>
