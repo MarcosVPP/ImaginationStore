@@ -41,3 +41,6 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationSt
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.pdb
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.xml
+F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.dll
+F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.pdb
+F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.xml

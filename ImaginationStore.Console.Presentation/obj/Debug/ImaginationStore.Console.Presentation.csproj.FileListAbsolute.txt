@@ -55,3 +55,6 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Console.Pre
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\nunit.framework.dll
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\nunit.framework.pdb
 C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\nunit.framework.xml
+F:\GitProjetos\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\nunit.framework.dll
+F:\GitProjetos\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\nunit.framework.pdb
+F:\GitProjetos\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\nunit.framework.xml
