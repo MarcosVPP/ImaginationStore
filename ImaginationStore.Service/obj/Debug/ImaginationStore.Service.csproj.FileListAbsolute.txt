@@ -44,3 +44,26 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Service\bin
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.pdb
 F:\GitProjetos\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\hibernate.cfg.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.dll.config
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Service.pdb
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Domain.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Integration.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\NHibernate.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\Iesi.Collections.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Domain.pdb
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Integration.pdb
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\ImaginationStore.Integration.dll.config
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.pdb
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\nunit.framework.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\NHibernate.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\Antlr3.Runtime.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\bin\Debug\Iesi.Collections.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csprojAssemblyReference.cache
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csproj.CoreCompileInputs.cache
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.csproj.CopyComplete
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Service\obj\Debug\ImaginationStore.Service.pdb

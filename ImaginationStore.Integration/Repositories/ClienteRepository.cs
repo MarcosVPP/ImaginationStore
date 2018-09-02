@@ -11,7 +11,7 @@ namespace ImaginationStore.Integration.Repositories
     public static class ClienteRepository
     {
 
-        public static void SalvarCliente(Cliente cliente)
+        public static void SalvarCliente(int clientecodigo, string nomeCliente, int telefonecliente, string filiacaocliente,decimal limitedecreditoCliente, Cliente cliente)
         {
             using (ISession session = NHibernateHelper.AbreSession())
             using (ITransaction transaction = session.BeginTransaction())

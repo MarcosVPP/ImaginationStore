@@ -248,3 +248,7 @@ F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\Microsoft.AI.S
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\Microsoft.ApplicationInsights.xml
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\nunit.framework.pdb
 F:\GitProjetos\ImaginationStore\ImaginationStore.Presentation\bin\nunit.framework.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.csprojAssemblyReference.cache
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Presentation\obj\Debug\ImaginationStore.Presentation.pdb

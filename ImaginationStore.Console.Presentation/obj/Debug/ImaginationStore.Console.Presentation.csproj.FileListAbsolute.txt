@@ -58,3 +58,33 @@ C:\Users\juan.vilella\source\repos\ImaginationStore\ImaginationStore.Console.Pre
 F:\GitProjetos\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\nunit.framework.dll
 F:\GitProjetos\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\nunit.framework.pdb
 F:\GitProjetos\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\nunit.framework.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\hibernate.cfg.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\ImaginationStore.Console.Presentation.exe.config
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\ImaginationStore.Console.Presentation.exe
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\ImaginationStore.Console.Presentation.pdb
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\Iesi.Collections.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\ImaginationStore.Domain.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\ImaginationStore.Integration.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\ImaginationStore.Service.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\NHibernate.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\nunit.framework.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\Remotion.Linq.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\ImaginationStore.Domain.pdb
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\ImaginationStore.Integration.pdb
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\ImaginationStore.Integration.dll.config
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\ImaginationStore.Service.pdb
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\ImaginationStore.Service.dll.config
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\Antlr3.Runtime.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\Iesi.Collections.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\NHibernate.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\nunit.framework.pdb
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\nunit.framework.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\Remotion.Linq.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\bin\Debug\Remotion.Linq.EagerFetching.xml
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\obj\Debug\ImaginationStore.Console.Presentation.csprojAssemblyReference.cache
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\obj\Debug\ImaginationStore.Console.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\obj\Debug\ImaginationStore.Console.Presentation.csproj.CopyComplete
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\obj\Debug\ImaginationStore.Console.Presentation.exe
+C:\Users\Juan Dias\Documents\GitHub\ImaginationStore\ImaginationStore.Console.Presentation\obj\Debug\ImaginationStore.Console.Presentation.pdb
